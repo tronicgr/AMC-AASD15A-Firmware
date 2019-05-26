@@ -4,6 +4,12 @@ Firmware updates for the AMC-AASD15A
 
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/IMG_20190518_080904_sm.jpg)
 
+### ======= enc_6dof_AMC-AASD15A_v1.0_rev1c ======= 
+```
+release date: 5/26/2019: 
+  -Fixed issue with proper activation on new boards
+```
+
 ### ======= enc_6dof_AMC-AASD15A_v1.0_rev1b ======= 
 ```
 release date: 5/24/2019: 
