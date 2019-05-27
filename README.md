@@ -4,6 +4,10 @@ Firmware updates for the AMC-AASD15A
 
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/IMG_20190518_080904_sm.jpg)
 
+### Firmware Update procedure video
+https://www.youtube.com/watch?v=WkAm-MI0xbo
+
+
 ### ======= enc_6dof_AMC-AASD15A_v1.0_rev1c ======= 
 ```
 release date: 5/26/2019: 
