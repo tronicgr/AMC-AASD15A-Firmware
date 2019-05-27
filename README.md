@@ -8,6 +8,7 @@ Firmware updates for the AMC-AASD15A
 ```
 release date: 5/26/2019: 
   -Fixed issue with proper activation on new boards
+  -Fixed bugs in selecting individual parameters for each actuator
 ```
 
 ### ======= enc_6dof_AMC-AASD15A_v1.0_rev1b ======= 
