@@ -7,6 +7,13 @@ Firmware updates for the AMC-AASD15A
 ### Firmware Update procedure video
 https://www.youtube.com/watch?v=WkAm-MI0xbo
 
+### ======= enc_6dof_AMC-AASD15A_v1.0_rev1d ======= 
+```
+release date: 5/30/2019: 
+  -Fixed issue with using correct inline foldback parameters per idividual actuator
+  -Fixed bug that prevented re-calibration of the actuator if reconnected for actuators 2,3,4,5,6
+  ----MANDATORY UPGRADE to this firmware please!!!
+```
 
 ### ======= enc_6dof_AMC-AASD15A_v1.0_rev1c ======= 
 ```
