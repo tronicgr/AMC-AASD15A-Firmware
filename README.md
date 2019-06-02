@@ -9,7 +9,7 @@ https://www.youtube.com/watch?v=WkAm-MI0xbo
 
 ### ======= enc_6dof_AMC-AASD15A_v1.0_rev1e ======= 
 ```
-release date: 5/30/2019: 
+release date: 6/2/2019: 
   -Fixed issue with calibration correct inline/foldback per individual actuator
   -Fixed bug kept same stroke for all actuators in individual setting
   ----MANDATORY UPGRADE to this firmware please!!!
