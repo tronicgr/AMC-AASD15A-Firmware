@@ -7,6 +7,13 @@ Firmware updates for the AMC-AASD15A
 ### Firmware Update procedure video
 https://www.youtube.com/watch?v=WkAm-MI0xbo
 
+### ======= enc_6dof_AMC-AASD15A_v1.0_rev1f ======= 
+```
+release date: 6/3/2019: 
+  -Changed the stroke values to appear as millimiters instead of centimeters
+```
+
+
 ### ======= enc_6dof_AMC-AASD15A_v1.0_rev1e ======= 
 ```
 release date: 6/2/2019: 
