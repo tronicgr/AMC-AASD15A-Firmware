@@ -8,6 +8,12 @@ Firmware updates for the AMC-AASD15A
 https://www.youtube.com/watch?v=WkAm-MI0xbo
 
 
+## ======= enc_6dof_AMC-AASD15A_v1.0_rev1g ======= 
+```
+release date: 6/5/2019: 
+  -Fixed the emergency e-stop function. It will disable the servos completely.
+    To remedy any position drift, the motors will recalibrate if e-stop is released
+```
 
 ### ======= enc_6dof_AMC-AASD15A_v1.0_rev1f ======= 
 ```
