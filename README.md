@@ -16,7 +16,7 @@ release date: 6/5/2019:
     To remedy any position drift, the motors will recalibrate if e-stop is released
     There are two options for e-stop defined by KLM setting in LCD menu.
     One option is to combine Park/Standby button with the delayed e-stop.
-    The second option is to immediately disable the servos.
+    The second option is to immediately disable (kill) the servos.
 ```
 
 ### ======= enc_6dof_AMC-AASD15A_v1.0_rev1f ======= 
