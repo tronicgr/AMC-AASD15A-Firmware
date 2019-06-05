@@ -61,8 +61,11 @@ release date: 5/24/2019:
   -Set manual move test buttons speed (variable depending on the number of motors)
 ```
 
-### ------------------- Wiring E-stop Buttons and switches -------------
+### ------------------- Wiring E-stop Buttons and switches - KLM option1 -------------
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/AMC-AASD15A%20park-standby-emergency-force-offline%20diagram.jpg)
+
+### ------------------- Wiring E-stop switch - KLM option2 -------------
+![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/AMC-AASD15A%20emergency%20e-stop%20diagram.jpg)
 
 
 
