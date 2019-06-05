@@ -14,7 +14,7 @@ https://www.youtube.com/watch?v=WkAm-MI0xbo
 release date: 6/5/2019: 
   -Fixed the emergency e-stop function. It will disable the servos completely.
     To remedy any position drift, the motors will recalibrate if e-stop is released
-    There are two option for e-stop defined by KLM setting in LCD menu.
+    There are two options for e-stop defined by KLM setting in LCD menu.
     One option is to combine Park/Standby button with the delayed e-stop.
     The second option is to immediately disable the servos.
 ```
