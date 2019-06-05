@@ -7,6 +7,8 @@ Firmware updates for the AMC-AASD15A
 ### Firmware Update procedure video
 https://www.youtube.com/watch?v=WkAm-MI0xbo
 
+
+
 ### ======= enc_6dof_AMC-AASD15A_v1.0_rev1f ======= 
 ```
 release date: 6/3/2019: 
@@ -48,6 +50,9 @@ release date: 5/24/2019:
   -Set Inline or Backfold configuration
   -Set manual move test buttons speed (variable depending on the number of motors)
 ```
+
+### ------------------- Wiring E-stop Buttons and switches -------------
+![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/AMC-AASD15A%20park-standby-emergency-force-offline%20diagram.jpg)
 
 
 
