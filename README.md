@@ -8,6 +8,11 @@ Firmware updates for the AMC-AASD15A
 https://www.youtube.com/watch?v=WkAm-MI0xbo
 
 
+### AMC-AASD15A interface plugin for Simtools
+You can find the Simtools Interface plugin here: 
+https://github.com/tronicgr/AMC-AASD15A-Firmware/tree/master/Simtools_interface_plugin
+
+
 
 ## ======= enc_6dof_AMC-AASD15A_v1.0_rev1g ======= 
 ```
