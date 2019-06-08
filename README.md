@@ -16,7 +16,7 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/tree/master/Simtools_interface_
 
 ## ======= enc_6dof_AMC-AASD15A_v1.0_rev1g ======= 
 ```
-release date: 6/5/2019: 
+release date: 6/8/2019: 
   -Fixed the emergency e-stop function. It will disable the servos completely.
     To remedy any position drift, the motors will recalibrate if e-stop is released
     There are two options for e-stop defined by KLM setting in LCD menu.
