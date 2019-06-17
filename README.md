@@ -13,10 +13,10 @@ You can find the Simtools Interface plugin here:
 https://github.com/tronicgr/AMC-AASD15A-Firmware/tree/master/Simtools_interface_plugin
 
 
-### You can use the AMC config tool to access and modify the parameters in the AMC-NANO:
-https://github.com/tronicgr/AMC-NANO_Firmware/blob/master/AMC_Config_Tool.zip
+### You can use the AMC config tool to access and modify the parameters in the AMC-AASD15A:
+https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Simtools_interface_plugin/AMC_Config_Tool.zip
 
-![Alt Text](https://github.com/tronicgr/AMC-NANO_Firmware/blob/master/AMC_config_NANO.jpg)
+![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Simtools_interface_plugin/AMC_config_AASD.jpg)
 
 
 ### ======= enc_6dof_AMC_AASD15A_v2_00 =======
