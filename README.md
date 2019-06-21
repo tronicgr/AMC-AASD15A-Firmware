@@ -19,6 +19,13 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Simtools_interface_
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Simtools_interface_plugin/AMC_config_AASD.jpg)
 
 
+### ======= enc_6dof_AMC_AASD15A_v2_01 =======
+```
+release date: 06/21/2019: 
+  -Added Actuator motion test that is activated when DIP1=OFF DIP4=ON, 
+  Motion test speed is adjusted by the encoder knob
+```
+
 ### ======= enc_6dof_AMC_AASD15A_v2_00 =======
 ```
 release date: 06/17/2019: 
