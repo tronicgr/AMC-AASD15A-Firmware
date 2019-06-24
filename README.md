@@ -23,7 +23,8 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Simtools_interface_
 ```
 release date: 06/24/2019: 
   -Fixed issue of servos not activate back correctly after E-Stop activated
-  -Added selection in the KLM menu of NC or NO switch type to be used for E-stop 
+  -Added selection in the KLM menu of NC or NO switch type to be used for E-stop
+   Attention! If NC (normally closed) switch is used, wire any additional button in series!
 ```
 
 ### ======= enc_6dof_AMC_AASD15A_v2_01 =======
