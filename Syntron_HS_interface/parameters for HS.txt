@@ -1,0 +1,64 @@
+Complete list of values to enter in the Syntron HS:
+
+Fn 000 = 1     Hard-wired control port work mode
+Fn 001 = 2     External pulse position mode
+Fn 010 = -1    Servo Enabling (S-ON)
+Fn 030 = -18   Servo Ready (ENA-SRV)
+Fn 031 = -6    Target Torque Reached
+Fn 038 = 1     Single pulse Positive logic (Pulse/DIR)
+Fn 039 = 0     (2.5Mhz filter)
+Fn 049 = 100   Torque threshold
+Fn 04A = 10    Torque hysteresis
+Fn 050 = 20    Electronic gear ratio numerator
+Fn 054 = 1     Electronic gear ratio denominator
+Fn 004 = 0     Motor direction 0=CCW - 1=CW
+
+Fn 056 = 120   Pulse input command exponent filtering 
+                          (Acceleration - deceleration)
+Fn 057 = 32    Pulse input command moving smoothing filtering
+Fn 05A = 0     Position loop speed feed-forward coefficient
+Fn 05B = 10    Position-loop speed feedforward low-pass
+                                 filter’s time constant
+Fn 05C = 80    Position loop’s No.1 proportional gain Kp1
+Fn 05D = 80    Position loop’s No. 2 proportional gain Kp2
+Fn 0DA = 32767 Number of tracking error pulses
+
+Fn 0AC = 3000    ( MAX MOTOR RPM) 
+
+Monitoning:
+DN 00     RPM
+DN 01     COMMAND FREQ
+DN 02     TORQUE
+DN 03     Position Tracking errors
+DN 07     Motor speed command value (RPM)
+
+
+
+
+Number of tracking error
+pulses is > “Fn 0DA”:
+
+a. Position command’s
+inputting frequency is
+too high;
+
+b. Position loop’s gain is
+too small;
+
+c. Over-travel parameter
+Fn 0DA’s set value is
+too small;
+
+
+--------------------------------------------------------------------------------
+
+Fn 0A0 = 0     Internal torque limit
+Fn 0A1 = 300   Internal forward-rotation torque limit
+Fn 0A2 = 300   Internal backward-rotation torque limit
+
+--------------------------------------------------------------------------------
+
+
+
+
+
