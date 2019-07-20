@@ -20,8 +20,8 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Simtools_interface_
 
 ### ======= enc_6dof_AMC_AASD15A_v2_03 =======
 ```
-release date: 06/24/2019: 
-  -Increased the Stroke setting from 400mm to 650mm. 
+release date: 07/20/2019: 
+  -Increased the Stroke setting range from 400mm to 650mm. 
   -1300mm stroke can be achieved using the 5mm/rev leadscrew setting on 1610 (10mm/rev) leadscrew actuator.
 ```
 
