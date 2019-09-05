@@ -18,6 +18,16 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Simtools_interface_
 
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Simtools_interface_plugin/AMC_config_AASD.jpg)
 
+
+### ======= enc_6dof_AMC_AASD15A_v2_04 BETA =======
+```
+release date: 08/28/2019:
+  -Added support for 7th servo.
+  -Added outputs for Indication LEDS for Park/Standby/ForceOffline/E-STOP (disabled with DIP2). 
+  -Added 6DOF + Rotation disable Park option to release the park function for 7th servo.
+  -Fixed Timeout for Park and Standby to represent values closer to seconds.
+```
+
 ### ======= enc_6dof_AMC_AASD15A_v2_03 =======
 ```
 release date: 07/20/2019: 
@@ -100,12 +110,29 @@ release date: 5/24/2019:
   -Set manual move test buttons speed (variable depending on the number of motors)
 ```
 
+
 ### ------------------- Wiring E-stop Buttons and switches - KLM option1 -------------
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/AMC-AASD15A%20park-standby-emergency-force-offline%20diagram.jpg)
 
 ### ------------------- Wiring E-stop switch - KLM option2 -------------
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/AMC-AASD15A%20emergency%20e-stop%20diagram.jpg)
 
+
+### ------------------- Wiring DB25 female connector on Servo7-aux pins -------------
+
+![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Beta_Firmware/AMC-AASD-15A_Servo7-aux_connections_schematic_sm.jpg)
+
+
+### ------------------- Wiring indication LEDs on AMC-AASD15A -------------
+
+Green ------------->	Motors online
+Blinking Yellow --->	Standby
+Yellow ------------>	Parked
+Only Red ---------->	E-Stop 
+Blinking Red ------>	Force offline
+Red + Yellow ------>	Force offline and parked
+
+![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Beta_Firmware/AMC-AASD-15A_Servo7-aux_connections_schematic_sm.jpg)
 
 
 ### ------------------- Using older AMC1280USB controller-------------
