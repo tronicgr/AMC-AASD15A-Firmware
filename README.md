@@ -127,7 +127,7 @@ https://www.youtube.com/watch?v=pVbQSvhRTq4
 
 https://www.youtube.com/watch?v=gEhakHadHmc
 
-![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Beta_Firmware/AMC-AASD-15A_Servo7-aux_connections_schematic_sm.jpg)
+![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/AMC-AASD-15A_Servo7-aux_connections_schematic_sm.jpg)
 
 
 ### ------------------- Wiring indication LEDs on AMC-AASD15A -------------
