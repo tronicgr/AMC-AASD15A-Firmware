@@ -125,14 +125,17 @@ release date: 5/24/2019:
 
 ### ------------------- Wiring indication LEDs on AMC-AASD15A -------------
 
+```
+Meaning of LED indications depending on the state of the controller:
 Green ------------->	Motors online
 Blinking Yellow --->	Standby
 Yellow ------------>	Parked
 Only Red ---------->	E-Stop 
 Blinking Red ------>	Force offline
 Red + Yellow ------>	Force offline and parked
+```
 
-![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Beta_Firmware/AMC-AASD-15A_Servo7-aux_connections_schematic_sm.jpg)
+![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Indication%20LEDs%20for%20AMC-AASD15A.jpg)
 
 
 ### ------------------- Using older AMC1280USB controller-------------
