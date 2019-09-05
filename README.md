@@ -19,13 +19,14 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Simtools_interface_
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Simtools_interface_plugin/AMC_config_AASD.jpg)
 
 
-### ======= enc_6dof_AMC_AASD15A_v2_04 BETA =======
+### ======= enc_6dof_AMC_AASD15A_v2_04 =======
 ```
-release date: 08/28/2019:
+release date: 09/05/2019:
   -Added support for 7th servo.
   -Added outputs for Indication LEDS for Park/Standby/ForceOffline/E-STOP (disabled with DIP2). 
   -Added 6DOF + Rotation disable Park option to release the park function for 7th servo.
   -Fixed Timeout for Park and Standby to represent values closer to seconds.
+  -Fixed the firmware to support the updated AMC Config Tool v1.1
 ```
 
 ### ======= enc_6dof_AMC_AASD15A_v2_03 =======
