@@ -22,6 +22,13 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Simtools_interface_
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Simtools_interface_plugin/AMC_config_AASD.jpg)
 
 
+### ======= enc_6dof_AMC_AASD15A_v2_05 =======
+```
+release date: 09/10/2019:
+  -Added support for 1604 leadscrew (4mm/rev).
+  -Fixed a small bug handling single set of parameters for all actuators.
+```
+
 ### ======= enc_6dof_AMC_AASD15A_v2_04 =======
 ```
 release date: 09/05/2019:
