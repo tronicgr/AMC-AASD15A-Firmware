@@ -1,8 +1,8 @@
 # AMC-AASD15A_Firmware
 Firmware updates for the AMC-AASD15A
 
-### NEW MANUAL v2 for the AMC-AASD15A with information for 4DOF+TL setup
-https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/AMC-AASD15A_4DOF%2BTL-Simtools_manual_v2.pdf
+### NEW MANUAL v2.1 for the AMC-AASD15A with information for 4DOF+TL setup
+https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/AMC-AASD15A_%204DOF%2BTL-Simtools_manual_v2_1.pdf
 
 
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/IMG_20190518_080904_sm.jpg)
