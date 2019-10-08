@@ -30,6 +30,8 @@ release date: 10/08/2019:
   
   -Fixed max stroke calculations depending on the leadscrew and ratio values to 
       prevent buffer overflow of the pulse engine. Table with max stroke values follows:
+        
+```
   Leadscrew | Ratio | Max Stroke
   ----------| ---------- | -----------
   4mm/rev| 1:1 | 580mm
@@ -44,8 +46,7 @@ release date: 10/08/2019:
   25mm/rev| 1:1 | 2500mm
   25mm/rev| 1:1.5 | 1660mm
   25mm/rev| 1:2 | 1250mm  
-  
-```
+
 
 ### ======= enc_6dof_AMC_AASD15A_v2_06 =======
 ```
