@@ -253,9 +253,8 @@ byte buf6[2];
 byte buf7[2];
 byte ID[2];
 byte endstring[2];
-
 void setup() {
-Serial.begin(250000);
+  Serial.begin(250000);
 }
 void loop() {
   // ID AXIS1 AXIS2 AXIS3 AXIS4 AXIS5 AXIS6 AXIS7 AXIS8 LF/CR
@@ -347,7 +346,7 @@ CMD55 returns the following numeric values separated by colon ( : ) punctuation 
 
 
 
-### ------------------- Using older AMC1280USB controller with firmware for AMC-AASD15A -------------
+### -------- Using older AMC1280USB controller with firmware for AMC-AASD15A ---------
 
 ```
 You can use the older AMC1280USB but it will require some extra wiring and addition of some capacitors and resistors
