@@ -25,9 +25,25 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Simtools_interface_
 ### ======= enc_6dof_AMC_AASD15A_v2_07 =======
 ```
 release date: 10/08/2019:
-  -Fixed max stroke calculations depending on the leadscrew and ratio values to prevent buffer overflow of the pulse engine.  
   -Fixed the speed of blinking of the Standby LED to correspond the ButtonSpeed setting direction up.
   -Changed the LEDs to be OFF by default, enable with DIP Switch 2 --> ON
+  
+  -Fixed max stroke calculations depending on the leadscrew and ratio values to 
+      prevent buffer overflow of the pulse engine. Table with max stroke values follows:
+  Leadscrew | Ratio | Max Stroke
+  4mm/rev| 1:1 | 580mm
+  4mm/rev| 1:1.5 | 390mm
+  4mm/rev| 1:2 | 290mm
+  5mm/rev| 1:1 | 640mm
+  5mm/rev| 1:1.5 | 430mm
+  5mm/rev| 1:2 | 320mm
+  10mm/rev| 1:1 | 1290mm
+  10mm/rev| 1:1.5 | 860mm
+  10mm/rev| 1:2 | 640mm
+  25mm/rev| 1:1 | 2500mm
+  25mm/rev| 1:1.5 | 1660mm
+  25mm/rev| 1:2 | 1250mm  
+  
 ```
 
 ### ======= enc_6dof_AMC_AASD15A_v2_06 =======
