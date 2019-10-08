@@ -193,8 +193,161 @@ Red + Yellow ------>	Force offline and parked
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Indication%20LEDs%20for%20AMC-AASD15A.jpg)
 
 
+### ---Programmers information---
+```
+x-sim:
+Make sure to set the axis to 16bit resolution, Binary
+On the USO set the BAUD speed to 250000 , 8 , NO , 1
+Then the dataformat for axisinformations is:
+~255~~255~~a01~~a02~~a03~~a04~~a05~~A06~~0~~0~~10~~13~
 
-### ------------------- Using older AMC1280USB controller-------------
+Generic data format information:
+0xFF 0xFF b1 b2 b3 b4 b5 b6 b7 b8 b9 b10 b11 b12 b13 b14 b15 b16  LF CR
+
+0xFF 0xFF - start of data identifier for the receiving micro controller
+byte1 - 8 bit binary number giving act1 demand MSB 
+byte2 - 8 bit binary number giving act1 demand LSB         
+byte3 - 8 bit binary number giving act2 demand MSB
+byte4 - 8 bit binary number giving act2 demand LSB
+byte5 - 8 bit binary number giving act3 demand MSB
+byte6 - 8 bit binary number giving act3 demand LSB 
+byte7 - 8 bit binary number giving act4 demand MSB
+byte8 - 8 bit binary number giving act4 demand LSB 
+byte9 - 8 bit binary number giving act5 demand MSB 
+byte10 - 8 bit binary number giving act5 demand LSB 
+byte11 - 8 bit binary number giving act6 demand MSB 
+byte12 - 8 bit binary number giving act6 demand LSB 
+byte13 - 8 bit binary number giving act7 demand MSB 
+byte14 - 8 bit binary number giving act7 demand LSB 
+byte15 - 8 bit binary number giving act8 demand MSB 
+byte16 - 8 bit binary number giving act8 demand LSB 
+LF   - Line Feed character
+CR  - Carriage Return character
+
+I add the two bytes to form a 16-bit value (for 0 to 65535 range, with 32512 mid position) like this:
+act1word = act1high
+Shift act1word , Left , 8bits
+act1word = act1word + act1low
+
+where 
+act1word is word type (65535)
+act1high is byte type
+act1low is byte type
+
+-----Simplified example code for sending axis data (for arduino):
+int outputValue0 = 0;        // value output
+int outputValue1 = 0;        // value output
+int outputValue2 = 0;        // value output
+int outputValue3 = 0;        // value output
+int outputValue4 = 0;        // value output
+int outputValue5 = 0;        // value output
+int outputValue6 = 0;        // value output
+int outputValue7 = 0;        // value output
+byte buf0[2];
+byte buf1[2];
+byte buf2[2];
+byte buf3[2];
+byte buf4[2];
+byte buf5[2];
+byte buf6[2];
+byte buf7[2];
+byte ID[2];
+byte endstring[2];
+
+void setup() {
+Serial.begin(250000);
+}
+void loop() {
+  // ID AXIS1 AXIS2 AXIS3 AXIS4 AXIS5 AXIS6 AXIS7 AXIS8 LF/CR
+  // - The ID is byte values 0xFF + 0xFF
+  // - Each Axis is 16bit wide.
+  // - LF+CR is required in the end (0x0A + 0x0D)
+  // change the analog out value:
+  ID[0] = 255;
+  ID[1] = 255;
+  buf0[1] = outputValue0 & 255;
+  buf0[0] = (outputValue0 >> 8) & 255;
+  buf1[1] = outputValue1 & 255;
+  buf1[0] = (outputValue1 >> 8) & 255;
+  buf2[1] = outputValue2 & 255;
+  buf2[0] = (outputValue2 >> 8) & 255;
+  buf3[1] = outputValue3 & 255;
+  buf3[0] = (outputValue3 >> 8) & 255;
+  buf4[1] = outputValue4 & 255;
+  buf4[0] = (outputValue4 >> 8) & 255;
+  buf5[1] = outputValue5 & 255;
+  buf5[0] = (outputValue5 >> 8) & 255;
+  buf6[1] = outputValue6 & 255;
+  buf6[0] = (outputValue6 >> 8) & 255;
+  buf7[1] = outputValue7 & 255;
+  buf7[0] = (outputValue7 >> 8) & 255;
+  endstring[0] = 10; //LF
+  endstring[1] = 13; //CR
+  Serial.write(ID, sizeof(ID));
+  Serial.write(buf0, sizeof(buf0));
+  Serial.write(buf1, sizeof(buf1));
+  Serial.write(buf2, sizeof(buf2));
+  Serial.write(buf3, sizeof(buf3));
+  Serial.write(buf4, sizeof(buf4));
+  Serial.write(buf5, sizeof(buf5));
+  Serial.write(buf6, sizeof(buf5));
+  Serial.write(buf7, sizeof(buf5));
+  Serial.write(endstring, sizeof(endstring));
+  delay(2);   // wait 2 milliseconds before the next loop
+}
+
+```
+
+### ---List of commands--- The parameters can be changed via simple terminal (250000 bps)
+
+Command Number | Display Parameter | Save Parameter
+------------| ------------ | -------------
+CMD01 |Motornumber: | spv012-spv018
+CMD04 |Park Position: | spv04001-spv04254
+CMD05 |Park Move Speed: | spv05001-spv05100
+CMD06 |Park Move Timeout: | spv0601-spv0690
+CMD07 |Standby Position: | spv07010-spv07245
+CMD08 |Standby Speed: | spv08000-spv08100
+CMD09 |Standby Timeout: | spv0901-spv0990
+CMD10 |Disable park type: | spv111-spv115
+CMD13 |Actuator Limits: | spv1300-spv1350
+CMD14 |Kill switch mode: | spv141-spv142
+CMD44 |Display all parameters 
+CMD45 |Print this help page 
+CMD55 |Print delimited parameter list for simtools
+spv45 |Saves all parameters at once
+RQM |  Displays model,revision and number of motors
+Park | Parks the actuators if in standby mode
+
+```
+The CMD$$ displays each parameter, and spv$$### saves each parameter with the value indicated. 
+To actually store the parameters in the flash memory you need to send "spv45" to save all 
+parameters at once. The "$$" on the spv is the command number, and the "###" is the value, 
+Some parameters have single digit value, some two digit value and some 3 digit value. 
+All values are characters!
+
+Here is a list of the default parameters values you should get when you issue the CMD44 command
+(if not like this, you may reset the default parameters via button combination)
+
+01.Motornumber 2-8: 4
+04.Park Position 0-254: 1
+05.Park_Move_Speed 1-100%: 11
+06.Park_Move_Timeout 1-90: 5
+07.Standby Position 10-245: 127
+08.Standby Speed 0-100%: 24
+09.Standby Timeout 1-90: 5
+10.Disable park type 1-5: 1
+13.Actuator Limits 0-50%: 1
+14.Kill switch mode 1-2: 1
+
+CMD55 returns the following numeric values separated by colon ( : ) punctuation mark:
+"data:" <Motornumber> ":" <Parkposition> ":" <Parkmovespeed> ":" <Parkmovetimeout> ":" <StandbyPosition> ":" <StandbySpeed> ":"<StandbyTimeout> ":" <Disableparktype> ":" <ActuatorLimits> ":" <Killswitchmode> ":" <Firmwareversion> ":" <AMCModel>
+
+```
+
+
+
+### ------------------- Using older AMC1280USB controller with firmware for AMC-AASD15A -------------
 
 ```
 You can use the older AMC1280USB but it will require some extra wiring and addition of some capacitors and resistors
