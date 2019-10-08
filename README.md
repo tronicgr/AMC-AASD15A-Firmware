@@ -22,6 +22,18 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Simtools_interface_
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Simtools_interface_plugin/AMC_config_AASD.jpg)
 
 
+### ======= enc_6dof_AMC_AASD15A_v2_06 =======
+```
+release date: 10/08/2019:
+  -Added support for 2525 leadscrew (25mm/rev).
+  -Added support for different reduction belt ratios (1:1, 1:1.5, 1:2)
+  -Added support for Platform Check. Will Park active actuators if any of them fail.
+     Selectable by Menu Entry ON or OFF.
+  -Fixed delay timers for Park/Standby to be more accurate for the used number of axis.  
+  -Fixed a bug saving stroke and direction of Servo7.
+  -Attached the speed of blinking of the Standby LED on the ButtonSpeed setting.
+```
+
 ### ======= enc_6dof_AMC_AASD15A_v2_05 =======
 ```
 release date: 09/10/2019:
