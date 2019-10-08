@@ -22,6 +22,14 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Simtools_interface_
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Simtools_interface_plugin/AMC_config_AASD.jpg)
 
 
+### ======= enc_6dof_AMC_AASD15A_v2_07 =======
+```
+release date: 10/08/2019:
+  -Fixed max stroke calculations depending on the leadscrew and ratio values to prevent buffer overflow of the pulse engine.  
+  -Fixed the speed of blinking of the Standby LED to correspond the ButtonSpeed setting direction up.
+  -Changed the LEDs to be OFF by default, enable with DIP Switch 2 --> ON
+```
+
 ### ======= enc_6dof_AMC_AASD15A_v2_06 =======
 ```
 release date: 10/08/2019:
