@@ -201,6 +201,7 @@ Then the dataformat for axisinformations is:
 ~255~~255~~a01~~a02~~a03~~a04~~a05~~A06~~0~~0~~10~~13~
 
 Generic data format information:
+The data string is 20 bytes long total.
 0xFF 0xFF b1 b2 b3 b4 b5 b6 b7 b8 b9 b10 b11 b12 b13 b14 b15 b16  LF CR
 
 0xFF 0xFF - start of data identifier for the receiving micro controller
@@ -232,6 +233,30 @@ where
 act1word is word type (65535)
 act1high is byte type
 act1low is byte type
+
+
+---Example of data to send for 4 Axis (Must include 0 values for not used axis):
+    1 0xFF  ID
+    2 0xFF  ID
+    3 0x7F  AXIS1 MSB
+    4 0x0F  AXIS1 LSB
+    5 0x7F  AXIS2 MSB
+    6 0x0F  AXIS2LSB
+    7 0x7F  AXIS3MSB
+    8 0x0F  AXIS3 LSB   
+    9 0x7F  AXIS4 MSB  
+    10 0x0F  AXIS4 LSB  
+    11 0x00  AXIS5 MSB  
+    12 0x00  AXIS5 LSB  
+    13 0x00  AXIS6 MSB  
+    14 0x00  AXIS6 LSB  
+    15 0x00  AXIS7 MSB  
+    16 0x00  AXIS7 LSB  
+    17 0x00  AXIS8 MSB  
+    18 0x00  AXIS8 LSB
+    19 0x0A  LF
+    20 0x0D  CR     
+
 
 -----Simplified example code for sending axis data (for arduino):
 int outputValue0 = 0;        // value output
@@ -293,6 +318,9 @@ void loop() {
   Serial.write(endstring, sizeof(endstring));
   delay(2);   // wait 2 milliseconds before the next loop
 }
+
+
+
 
 ```
 
