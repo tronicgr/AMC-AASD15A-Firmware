@@ -3,7 +3,7 @@ Interface instructions for Dorna M1 servos
 
 ### Wiring Diagram for Dorna M1 servos
 
-![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/DornaM1_interface/Wiring_AMC-AASD-15A_to_Dorna_sm.jpg)
+![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/DornaM1_interface/AMC-AASD15A%20to%20Dorna%20servomotor%20connections%20schematic%20sm.jpg)
 
 
 ```
