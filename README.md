@@ -74,6 +74,9 @@ release date: 10/08/2019:
   -Fixed a bug saving stroke and direction of Servo7.
   -Attached the speed of blinking of the Standby LED on the ButtonSpeed setting.
 ```
+Video regarding the new options on firmware v2.08:
+https://www.youtube.com/watch?v=varxAyA26nc
+
 
 ### ======= enc_6dof_AMC_AASD15A_v2_05 =======
 ```
