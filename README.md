@@ -22,6 +22,21 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Simtools_interface_
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Simtools_interface_plugin/AMC_config_AASD.jpg)
 
 
+### ======= enc_6dof_AMC_AASD15A_v2_08 =======
+```
+release date: 01/22/2020:
+-Added option for KLM input (e-stop) to either HOLD powered position or Kill power to the Motors
+-Added option for FSW input (Force offline) to either Always Park or let user use park/standby button.
+-Added Actuator type selection for Linear or Rotary type (gearbox reduction). The menus are showing new
+    options fit for describing the gearbox like reduction ratio, Steps of the motor and output angle range needed.
+
+example calculation for gearbox:
+ (500pulses / 360 ) * 180degrees = 250 Pulses
+  250Pulses * (50:1 Reduction) = 12500 Pulses
+*keep in mind that the max pulses buffer that AMC-AASD15A can use is 65535!
+
+```
+
 ### ======= enc_6dof_AMC_AASD15A_v2_07 =======
 ```
 release date: 10/08/2019:
