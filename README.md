@@ -28,7 +28,8 @@ release date: 01/22/2020:
 -Added option for KLM input (e-stop) to either HOLD powered position or Kill power to the Motors
 -Added option for FSW input (Force offline) to either Always Park or let user use park/standby button.
 -Added Actuator type selection for Linear or Rotary type (gearbox reduction). The menus are showing new
-    options fit for describing the gearbox like reduction ratio, Steps of the motor and output angle range needed.
+    options fit for describing the gearbox like reduction Ratio, Steps of the motor and output Angle range
+    as well the CW or CCW direction of the motor.
 
 example calculation for gearbox:
  (500pulses / 360 ) * 180degrees = 250 Pulses
