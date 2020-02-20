@@ -4,12 +4,12 @@ Beta Versions. Use on own risk
 -- enc_6dof_AMC_AASD15A_v2_09_fix_filter4.zip
 
 -The filter is set to run globally, even on offline mode. Make sure to set the Park position to zero "0" to avoid small jumps while changing the filter factor value. The filter factor value is located under the Pulse Freq menu. The motors must be parked or powered off as there is safety that does not allow modification of the filter factor value otherwise. It will not allow modification when you operate the buttons on the panel, or being on online mode. You can disable the filter entirely by selecting value "0" for the Filter Factor parameter. There are 5 levels of filtering:
-0 No Filter
-1 Hard Filter
-2 Semi-Hard Filter
-3 Semi-Soft Filter
-4 Soft-Filter
-5 ...Molasses
+--0 No Filter
+--1 Hard Filter
+--2 Semi-Hard Filter
+--3 Semi-Soft Filter
+--4 Soft-Filter
+--5 ...Molasses
                      
 -The jump when entering online mode was fixed. Also fixed the jump if you activated e-stop in power off mode... it will always make sure the actuators are in park before starting motion, either offline or online.
 
