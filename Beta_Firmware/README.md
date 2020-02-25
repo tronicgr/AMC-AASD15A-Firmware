@@ -7,7 +7,7 @@ Beta Versions. Use on own risk
 - 2. Speed: it defines the recovery speed that the motor will use to go to the target position demanded by the motion software while the spike filter is active. This is an generic number that needs a bit of experiment as its different for different leadscrew and stroke actuators.
 
 
-
+---------------------------------------------------------------------------------------------------------------------
 
 -- enc_6dof_AMC_AASD15A_v2_09_fix_filter4.zip
 -The filter is set to run globally, even on offline mode. Make sure to set the Park position to zero "0" to avoid small jumps while changing the filter factor value. The filter factor value is located under the Pulse Freq menu. The motors must be parked or powered off as there is safety that does not allow modification of the filter factor value otherwise. It will not allow modification when you operate the buttons on the panel, or being on online mode. You can disable the filter entirely by selecting value "0" for the Filter Factor parameter. There are 5 levels of filtering:
