@@ -2,11 +2,11 @@ Beta Versions. Use on own risk
 
 ---------------------------------------------------------------------------------------------------------------------
 
--- enc_6dof_AMC_AASD15A_v2_09_fix_filter5.zip
+-- enc_6dof_AMC_AASD15A_v2_09_fix_filter6.zip
 
 -Added spike filter that can be adjusted by two parameters:
 - 1. Level: it defines the distance in data points that the input position have to exceed for the spike filter to kick in. This is absolute 16bit value 0-65535, default value 32767. If the spike filter kicks in too often, increase this value.
-- 2. Speed: it defines the recovery speed that the motor will use to go to the target position demanded by the motion software while the spike filter is active. This is an generic number that needs a bit of experiment as its different for different leadscrew and stroke actuators. Default value is 800. If the actuators move too slow during the spike filter being active, you can increase this value more.
+- 2. Enable or Disable the Spike Filter
 
 
 ---------------------------------------------------------------------------------------------------------------------
