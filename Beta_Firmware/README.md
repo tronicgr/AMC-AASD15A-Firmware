@@ -3,7 +3,8 @@ Beta Versions. Use on own risk
 ---------------------------------------------------------------------------------------------------------------------
 
 -- enc_6dof_AMC_AASD15A_v2_09_fix_filter9.zip
-Same as (9) but with max value for spike filter on 32767.
+
+- Same as (9) but with max value for spike filter on 32767.
 
 
 ---------------------------------------------------------------------------------------------------------------------
