@@ -3,6 +3,12 @@ Beta Versions. Use on own risk
 ---------------------------------------------------------------------------------------------------------------------
 
 -- enc_6dof_AMC_AASD15A_v2_09_fix_filter9.zip
+Same as (9) but with max value for spike filter on 32767.
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+-- enc_6dof_AMC_AASD15A_v2_09_fix_filter9.zip
 
 -Added spike filter that can be adjusted by two parameters:
 - 1. Level: it defines the distance in data points that the input position have to exceed for the spike filter to kick in. This is absolute 16bit value 0-65535, default value 32767. If the spike filter kicks in too often, increase this value.
