@@ -15,6 +15,16 @@ Beta Versions. Use on own risk
 
 This new Spike Filter works by detecting spikes in position data larger that the defined level (most likely crashes) and it will automatically activate the Force Offline mode, that places the actuators in seek position mode until all motors catch up with live motion data. So for the duration of the crash the motors will avoid doing any intense jolts and most likely the motion will come back on when the vehicle is standing still. It should work wonders in long duration crashes like when you have rollover down a bank for example...
 
+Some related videos:
+
+https://youtu.be/QQWbG6e95cs
+
+https://youtu.be/trsNiGNrWPI
+
+https://youtu.be/s8uSu6mrPy0
+
+
+
 ---------------------------------------------------------------------------------------------------------------------
 
 -- enc_6dof_AMC_AASD15A_v2_09_fix_filter4.zip
