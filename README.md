@@ -260,8 +260,8 @@ act1low is byte type
     3 0x7F  AXIS1 MSB
     4 0x0F  AXIS1 LSB
     5 0x7F  AXIS2 MSB
-    6 0x0F  AXIS2LSB
-    7 0x7F  AXIS3MSB
+    6 0x0F  AXIS2 LSB
+    7 0x7F  AXIS3 MSB
     8 0x0F  AXIS3 LSB   
     9 0x7F  AXIS4 MSB  
     10 0x0F  AXIS4 LSB  
