@@ -25,6 +25,7 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Simtools_interface_
 ### ======= enc_6dof_AMC_AASD15A_v2_09 =======
 
 release date: 03/5/2020:
+- Added "Rotation Offset" parameter that allows custom degrees backtrack of the rotating actuators during calibration so they can clear away from the limit switch it the hardstop. This can be set to any value between 1-90 degrees angle. It no effect on the linear actuators backtrack of the motor that is set by default to a little less than half rotation of the motor.
 - Added Rolling Average Filter that is set to run globally and it appear in the LCD menu with the name "Filter Factor". The Filter Factor value is located under the "Pulse Freq" menu option. The motors must be parked or powered off as there is safety that does not allow modification of the filter factor value otherwise. It will not allow modification when you operate the buttons on the panel, or being on online mode. You can disable the filter entirely by selecting value "0" for the Filter Factor parameter. There are 5 levels of filtering:
 - 0 No Filter
 - 1 Hard Filter
@@ -46,10 +47,12 @@ release date: 03/5/2020:
 - Fixes the transition to online motion data if the Force-Offline switch is used, avoiding jumps or jolts in the motion.
 - Fixed the position seek during spike filtering to to a range instead a point to allow catching up to real time motion data immediately after a crash.
 
-This new Spike Filter works by detecting spikes in position data larger that the defined level (most likely crashes) and it will automatically activate the Force Offline mode, that places the actuators in seek position mode until all motors catch up with live motion data. So for the duration of the crash the motors will avoid doing any intense jolts and most likely the motion will come back on when the vehicle is standing still. It should work wonders in long duration crashes like when you have rollover down a bank for example...
+Th new Spike Filter works by detecting spikes in position data larger that the defined level (most likely crashes) and it will automatically activate the Force Offline mode, that places the actuators in seek position mode until all motors catch up with live motion data. So for the duration of the crash the motors will avoid doing any intense jolts and most likely the motion will come back on when the vehicle is standing still. It should work wonders in long duration crashes like when you have rollover down a bank for example...
 
 
 Some related videos:
+
+https://youtu.be/F55fNvJAfzQ
 
 https://youtu.be/QQWbG6e95cs
 
@@ -58,6 +61,7 @@ https://youtu.be/trsNiGNrWPI
 https://youtu.be/s8uSu6mrPy0
 
 https://youtu.be/HPB0BXzEaAg
+
 
 ### ======= enc_6dof_AMC_AASD15A_v2_08 =======
 ```
