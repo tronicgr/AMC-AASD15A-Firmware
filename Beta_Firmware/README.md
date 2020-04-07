@@ -9,8 +9,7 @@ Download it and try it, but not before you update to the newest v2.10 beta fix3 
 https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Beta_Firmware/AMC_Config_tool_1_2.zip
 https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Beta_Firmware/enc_6dof_AMC_AASD15A_v2_10_beta_fix3.zip
 
-See in this video how it operates:
-https://www.youtube.com/watch?v=EQ3INaih13k
+See how it operates here: https://www.youtube.com/watch?v=EQ3INaih13k
 ---------------------------------------------------------------------------------------------------------------------
 
 -- enc_6dof_AMC_AASD15A_v2_10_beta_fix2.zip
