@@ -12,6 +12,20 @@ Beta Versions. Use on own risk
 See detailed info about the changes on the video here: https://www.youtube.com/watch?v=OBPfGzyTCBM
 
 
+--------------------------------------------------
+Beta release for AMC config tool v1.2 and AMC-AASD15A firmware v2.10 beta fix3:
+
+Download it and try it, but not before you update to the newest v2.10 beta fix3 firmware. Beware the v2.10 Fix3 firmware will restore default settings on the AMC. Make sure to take note of previous setting you used.
+
+https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Beta_Firmware/AMC_Config_tool_1_2.zip
+https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Beta_Firmware/enc_6dof_AMC_AASD15A_v2_10_beta_fix3.zip
+
+See in this video how it operates:
+https://www.youtube.com/watch?v=EQ3INaih13k
+
+
+
+
 ---------------------------------------------------------------------------------------------------------------------
 
 -- enc_6dof_AMC_AASD15A_v2_10_beta_fix1.zip
