@@ -11,6 +11,8 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Beta_Firmware/enc_6
 
 - See how it operates here: https://www.youtube.com/watch?v=EQ3INaih13k
 
+![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Beta_Firmware/AMC-Config-tool-v1_2_AASD.jpg)
+
 
 ---------------------------------------------------------------------------------------------------------------------
 
