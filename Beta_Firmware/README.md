@@ -9,7 +9,7 @@ Beta release for AMC config tool v1.2 and AMC-AASD15A firmware v2.10 beta fix5:
 https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Beta_Firmware/AMC_Config_tool_1_2.zip
 https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Beta_Firmware/enc_6dof_AMC_AASD15A_v2_10_beta_fix5.zip
 
-- small change from fix3 to fix4: fixed the jump on reconnects to simtools, Use the v2.10 fix4 please.
+- small change from fix3, fix4: fixed the jump on reconnects to simtools and proper switch to ONLINE, Use the v2.10 fix5 please.
 
 - See how it operates here: https://www.youtube.com/watch?v=EQ3INaih13k
 
