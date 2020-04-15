@@ -248,8 +248,14 @@ Only Red ---------->	E-Stop
 Blinking Red ------>	Force offline
 Red + Yellow ------>	Force offline and parked
 ```
+Simple 3.7v LEDs:
 
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Indication%20LEDs%20for%20AMC-AASD15A.jpg)
+
+12v or higher voltage LEDS:
+
+![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/higher_voltage_Indication_LEDs_for_AMC-AASD-15A.jpg)
+
 
 
 ### ---Programmers information---
