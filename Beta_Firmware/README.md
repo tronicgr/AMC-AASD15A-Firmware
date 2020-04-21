@@ -1,5 +1,14 @@
 Beta Versions. Use on own risk
 
+--------------------------------------------------
+-- enc_6dof_AMC_AASD15A_v2_10_beta_fix6.zip
+
+- fixed issue with jump occuring if Force offline switch is used while online. The actuators now return to online position smoothly.
+
+https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Beta_Firmware/enc_6dof_AMC_AASD15A_v2_10_beta_fix6.zip
+
+
+
 
 --------------------------------------------------
 Beta release for AMC config tool v1.2 and AMC-AASD15A firmware v2.10 beta fix5:
