@@ -3,6 +3,8 @@ This is the latest firmware for AMC-AASD15A
 ### Firmware Update procedure video
 https://www.youtube.com/watch?v=WkAm-MI0xbo
 
+AVRUBD utility: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/Firmware%20bootloader%20Utility%2052.zip
+
 --------------------------------------------------
 -- enc_6dof_AMC_AASD15A_v2_10_beta_fix6.zip
 
