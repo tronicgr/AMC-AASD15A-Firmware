@@ -1,5 +1,7 @@
 This is the latest firmware for AMC-AASD15A
 
+### Firmware Update procedure video
+https://www.youtube.com/watch?v=WkAm-MI0xbo
 
 --------------------------------------------------
 -- enc_6dof_AMC_AASD15A_v2_10_beta_fix6.zip
@@ -10,15 +12,15 @@ This is the latest firmware for AMC-AASD15A
 - Fixed an issue where the actuators where not calibrating if Force offline switch was activated on power on of the controller.
 - Changed the order of appearance for the Spike Filter "Range" and "Level" so you won't have to go back to modify the level twice.
 
-AMC config tool v1.2 and AMC-AASD15A firmware v2.10 beta fix5:
 
-- Download it and try it, but not before you update to the newest v2.10 beta fix5 firmware. Beware the v2.10 Fix5 firmware will restore default settings on the AMC. Make sure to take note of previous setting you used.
+AMC config tool v1.2 and AMC-AASD15A firmware v2.10 beta fix6:
 
-https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Beta_Firmware/AMC_Config_tool_1_2.zip
-https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Beta_Firmware/enc_6dof_AMC_AASD15A_v2_10_beta_fix5.zip
+- Download it and try it, but not before you update to the newest v2.10 beta fix6 firmware. Beware the v2.10 Fix6 firmware will restore default settings on the AMC. Make sure to take note of previous setting you used.
 
-- small change from fix3, fix4: fixed the jump on reconnects to simtools and proper switch to ONLINE, Use the v2.10 fix5 please.
+https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/AMC_Config_tool_1_2.zip
+
+- small change from fix3, fix4 and fix5: fixed the jump on reconnects to simtools and proper switch to ONLINE, Use the v2.10 fix6 please.
 
 - See how it operates here: https://www.youtube.com/watch?v=EQ3INaih13k
 
-![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Beta_Firmware/AMC-Config-tool-v1_2_AASD.jpg)
+![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/AMC-Config-tool-v1_2_AASD.jpg)
