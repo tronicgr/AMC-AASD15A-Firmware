@@ -1,4 +1,6 @@
-This is the latest firmware for AMC-AASD15A
+### This is the latest firmware for AMC-AASD15A
+
+~
 
 ### Firmware Update procedure video
 https://www.youtube.com/watch?v=WkAm-MI0xbo
