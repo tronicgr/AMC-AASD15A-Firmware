@@ -8,6 +8,13 @@ https://www.youtube.com/watch?v=WkAm-MI0xbo
 AVRUBD utility: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/Firmware%20bootloader%20Utility%2052.zip
 
 --------------------------------------------------
+-- enc_6dof_AMC_AASD15A_v2_10_beta_fix8_RGB-menufix.zip
+- fixed issue with saving the Filter factor and Spike filter if the controller was not previously online since boot.
+- added in the selection display for Spike filter the ability to show the spike filter level in mm distance of the actuator.
+See this video for the changes made: https://www.youtube.com/watch?v=l9le4nq7fb0
+
+
+--------------------------------------------------
 -- enc_6dof_AMC_AASD15A_v2_10_beta_fix6.zip
 
 - fixed issue with jump occuring if Force offline switch is used while online. The actuators now return to online position smoothly.
