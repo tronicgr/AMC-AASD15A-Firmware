@@ -11,6 +11,7 @@ AVRUBD utility: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Lat
 -- enc_6dof_AMC_AASD15A_v2_10_beta_fix8_RGB-menufix.zip
 - fixed issue with saving the Filter factor and Spike filter if the controller was not previously online since boot.
 - added in the selection display for Spike filter the ability to show the spike filter level in mm distance of the actuator.
+
 See this video for the changes made: https://www.youtube.com/watch?v=l9le4nq7fb0
 
 
