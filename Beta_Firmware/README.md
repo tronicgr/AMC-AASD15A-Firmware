@@ -1,7 +1,17 @@
 Beta Versions. Use on own risk
 
+
+
+-- enc_6dof_AMC_AASD15A_v2_10_beta_fix7_RGB-menufix.zip
 --------------------------------------------------
+- added support for RGB color LCDs.
+
+https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Beta_Firmware/enc_6dof_AMC_AASD15A_v2_10_beta_fix7_RGB-menufix.zip
+
+
+
 -- enc_6dof_AMC_AASD15A_v2_10_beta_fix6.zip
+--------------------------------------------------
 
 - fixed issue with jump occuring if Force offline switch is used while online. The actuators now return to online position smoothly.
 
