@@ -19,16 +19,17 @@ See this video for the changes made: https://www.youtube.com/watch?v=DfGoHd0oDw4
 
 
 
---------------------------------------------------
 -- enc_6dof_AMC_AASD15A_v2_10_beta_fix8_RGB-menufix.zip
+--------------------------------------------------
 - fixed issue with saving the Filter factor and Spike filter if the controller was not previously online since boot.
 - added in the selection display for Spike filter the ability to show the spike filter level in mm distance of the actuator.
 
 See this video for the changes made: https://www.youtube.com/watch?v=l9le4nq7fb0
 
 
---------------------------------------------------
+
 -- enc_6dof_AMC_AASD15A_v2_10_beta_fix6.zip
+--------------------------------------------------
 
 - fixed issue with jump occuring if Force offline switch is used while online. The actuators now return to online position smoothly.
 - Fixed the disable Auto park issue where all actuators where parking on Force Offline switch even the TL and Surge ones.
@@ -38,6 +39,7 @@ See this video for the changes made: https://www.youtube.com/watch?v=l9le4nq7fb0
 
 
 AMC config tool v1.2 and AMC-AASD15A firmware v2.10 beta fix6:
+--------------------------------------------------
 
 - Download it and try it, but not before you update to the newest v2.10 beta fix6 firmware. Beware the v2.10 Fix6 firmware will restore default settings on the AMC. Make sure to take note of previous setting you used.
 
