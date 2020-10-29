@@ -11,6 +11,14 @@ AVRUBD utility: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Lat
 - After loading new firmware, please hold down the "EXIT" button on the panel and press and release the "RESET" button on the controller to restore default parameters. See how its done on this video: https://www.youtube.com/watch?v=g12Grq-1LBQ
 
 
+
+-- enc_6dof_AMC_AASD15A_v2_11_beta_fix3_RGB.zip 
+--------------------------------------------------
+- Changed the TL Spike filter, to follow the Disable Park setting correctly for various types of platforms
+- Changed the appearance of Pulse Freq menu to also show the value of Filter Factor, which is now renamed to plain "Pulse Filter Crv" (short for Curve)
+- Added in the display of Spike Filter degrees angle for rotary actuators to display over what degrees the spike filter will activate.
+
+
 -- enc_6dof_AMC_AASD15A_v2_11_beta_fix2_RGB.zip 
 --------------------------------------------------
 - Added controls on the LCD menu to adjust the secondary spike filter for TL and Surge axis so you can select different spike level activation values.
