@@ -22,6 +22,11 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/AMC
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Beta_Firmware/AMC-Config-tool-v1_2_AASD.jpg)
 
 
+-- enc_6dof_AMC_AASD15A_v2_11_beta_fix4_RGB.zip 
+--------------------------------------------------
+- Fixed refresh issue when displaying "Wait...Parking.." on Pulse filter screen
+- Changed the internal command set to be allowed changing the Spike Filter level values while online. It was requested by SRS motion software to allow different presets per game and per car etc.
+
 
 -- enc_6dof_AMC_AASD15A_v2_11_beta_fix3_RGB.zip 
 --------------------------------------------------
@@ -488,9 +493,16 @@ CMD09 |Standby Timeout: | spv0901-spv0990
 CMD10 |Disable park type: | spv111-spv115
 CMD13 |Actuator Limits: | spv1300-spv1350
 CMD14 |Kill switch mode: | spv141-spv142
+CMD15 |Spike Range: | spv15001-spv15254
+CMD16 |Spike Level: | spv16001-spv16254
+CMD17 |Spike 1=On, 2=Off: | spv171-spv172
+CMD18 |TL Spike Level: | spv18001-spv18254
+CMD19 |TL Spike 1=On, 2=Off: | spv191-spv192
+CMD20 |Filter Factor 0-5: | spv201-spv205
 CMD44 |Display all parameters 
 CMD45 |Print this help page 
 CMD55 |Print delimited parameter list for simtools
+CMD56 |Print delimited parameter list for SRS
 spv45 |Saves all parameters at once
 RQM |  Displays model,revision and number of motors
 Park | Parks the actuators if in standby mode
@@ -516,8 +528,13 @@ Here is a list of the default parameters values you should get when you issue th
 13.Actuator Limits 0-50%: 1
 14.Kill switch mode 1-2: 1
 
-CMD55 returns the following numeric values separated by colon ( : ) punctuation mark:
+CMD55 returns the following numeric values separated by colon ( : ) punctuation mark for Simtools:
 "data:" <Motornumber> ":" <Parkposition> ":" <Parkmovespeed> ":" <Parkmovetimeout> ":" <StandbyPosition> ":" <StandbySpeed> ":"<StandbyTimeout> ":" <Disableparktype> ":" <ActuatorLimits> ":" <Killswitchmode> ":" <Firmwareversion> ":" <AMCModel>
+
+CMD56 returns the following numeric values separated by colon ( : ) punctuation mark for SRS:
+"dataSRS:" <Firmwareversion> ":" <Betaversion> ":" <AMCModel> ":" <Axis_Number> ":" <Filter_factor> ":" <Spike_range> ":" <Spike_factor> ":" <Spike_filter_en> ":" <Stroke_cm> ":" <Spike_factor_TL> ":" <Spike_filter_en_TL> ":" <Disableparktype> ":"
+
+            
 
 ```
 
