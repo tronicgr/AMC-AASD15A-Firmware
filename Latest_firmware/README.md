@@ -12,10 +12,11 @@ AVRUBD utility: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Lat
 
 
 
--- enc_6dof_AMC_AASD15A_v2_11_beta_fix3_RGB.zip 
+-- enc_6dof_AMC_AASD15A_v2_11_beta_fix4_RGB.zip 
 --------------------------------------------------
-- Changed the TL Spike filter, to follow the Disable Park setting correctly for various types of platforms
-- Changed the appearance of Pulse Freq menu to also show the value of Filter Factor, which is now renamed to plain "Pulse Filter Crv" (short for Curve)
-- Added in the display of Spike Filter degrees angle for rotary actuators to display over what degrees the spike filter will activate.
+- Fixed refresh issue when displaying "Wait...Parking.." on Pulse filter screen
+- Changed the internal command set to be allowed changing the Spike Filter level values while online. It was requested by SRS motion software to allow different presets per game and per car etc.
+
+
 
 
