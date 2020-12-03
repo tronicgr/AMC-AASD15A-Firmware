@@ -12,10 +12,10 @@ AVRUBD utility: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Lat
 
 
 
--- enc_6dof_AMC_AASD15A_v2_11_beta_fix4_RGB.zip 
+-- enc_6dof_AMC_AASD15A_v2_11_beta_fix5_RGB.zip 
 --------------------------------------------------
-- Fixed refresh issue when displaying "Wait...Parking.." on Pulse filter screen
-- Changed the internal command set to be allowed changing the Spike Filter level values while online. It was requested by SRS motion software to allow different presets per game and per car etc.
+- Separated standby speed from the spike filter so it can slowly enter or exit online mode.
+- Allows now correct adjustment of the ESC speed during spike filter events, without interfering with Park and Standby motion speeds. 
 
 
 
