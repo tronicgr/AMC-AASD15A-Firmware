@@ -22,6 +22,13 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/AMC
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Beta_Firmware/AMC-Config-tool-v1_2_AASD.jpg)
 
 
+
+-- enc_6dof_AMC_AASD15A_v2_11_beta_fix5_RGB.zip 
+--------------------------------------------------
+- Separated standby speed from the spike filter so it can slowly enter or exit online mode.
+- Allows now correct adjustment of the ESC speed during spike filter events, without interfering with Park and Standby motion speeds. 
+
+
 -- enc_6dof_AMC_AASD15A_v2_11_beta_fix4_RGB.zip 
 --------------------------------------------------
 - Fixed refresh issue when displaying "Wait...Parking.." on Pulse filter screen
