@@ -1,4 +1,4 @@
-### This is the latest firmware for AMC-AASD15A...
+### This is the latest firmware for AMC-AASD15A... (v2.11 fix5)
 
 ~
 
