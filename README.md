@@ -23,7 +23,7 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/AMC
 
 
 
-![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/20201208_200026.gif)
+![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/20201208_201316.gif)
 
 
 -- enc_6dof_AMC_AASD15A_v2_11_beta_fix5_RGB.zip 
