@@ -27,7 +27,8 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/AMC
 --------------------------------------------------
 - Separated standby speed from the spike filter so it can slowly enter or exit online mode.
 - Allows now correct adjustment of the ESC speed during spike filter events, without interfering with Park and Standby motion speeds. 
-
+- Added stealth LCD colors! To enable hold UP button and press reset until a message appears.
+- Restore Default RGB colors by holding DOWN button and press reset button until the message appears.
 
 -- enc_6dof_AMC_AASD15A_v2_11_beta_fix4_RGB.zip 
 --------------------------------------------------
