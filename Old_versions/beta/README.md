@@ -1,1 +1,1 @@
-Beta versions - use on own risk
+Beta versions - use on own risk.
