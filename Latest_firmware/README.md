@@ -22,7 +22,7 @@ The 128k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firm
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/2560%20firmware%20update%20option1.jpg)
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/2560%20firmware%20update%20option2.jpg)
 
-The 256k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/enc_6dof_AMC_AASD15A_v2_11_beta_fix5_RGB.zip
+The 256k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/enc_2560_6dof_AMC_AASD15A_v2_11_beta_fix5_RGB.zip
 
 
 
