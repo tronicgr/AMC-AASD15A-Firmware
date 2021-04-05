@@ -1,6 +1,7 @@
 ### This is the latest firmware for AMC-AASD15A... (v2.11 fix5)
 
 ~
+### Be aware there is firmware for two different size Atmega microcontrollers now, Atmega1280 and Atmega2560. If not sure which version you have please ask in Discord before proceeding updating your AMC controller: https://discord.gg/bx4PxYR
 
 ### Firmware Update procedure video
 https://www.youtube.com/watch?v=WkAm-MI0xbo
