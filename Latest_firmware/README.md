@@ -10,6 +10,7 @@ AVRUBD utility: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Lat
 ### Settings in AVRDB for loading the fimware to older 128k Atmega boards:
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/1280%20firmware%20update%20option1.jpg)
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/1280%20firmware%20update%20option2.jpg)
+
 The 128k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/enc_6dof_AMC_AASD15A_v2_11_beta_fix5_RGB.zip
 
 
@@ -20,6 +21,7 @@ The 128k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firm
 ### Alternative settings in AVRDB for loading the fimware to new 256k Atmega boards (shipped after March 25 2021):
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/2560%20firmware%20update%20option1.jpg)
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/2560%20firmware%20update%20option2.jpg)
+
 The 256k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/enc_6dof_AMC_AASD15A_v2_11_beta_fix5_RGB.zip
 
 
