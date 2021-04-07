@@ -18,6 +18,11 @@ Otherwise the 128k boards will display this on the LCD:
 
 
 
+![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/1280vs2560_boards.jpg)
+
+
+
+
 AVRUBD utility: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/Firmware%20bootloader%20Utility%2052.zip
 
 ### Settings in AVRDB for loading the fimware to older 128k Atmega boards:
