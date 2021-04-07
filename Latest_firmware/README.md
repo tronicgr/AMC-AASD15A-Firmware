@@ -6,6 +6,17 @@
 ### Firmware Update procedure video
 https://www.youtube.com/watch?v=WkAm-MI0xbo
 
+### INPORTANT notice:
+- After loading new firmware, please hold down the "EXIT" button on the panel and press and release the "RESET" button on the controller to restore default parameters. See how its done on this video: https://www.youtube.com/watch?v=g12Grq-1LBQ
+
+
+### How to identify if you have 128k or 256k board:
+You can turn off the DIP switch #1 and reset the board. It should display an additional "2560" on the LCD if you have the 256k board:
+![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/2560_firm_LCD.jpg)
+![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/1280_firm_LCD.jpg)
+
+
+
 AVRUBD utility: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/Firmware%20bootloader%20Utility%2052.zip
 
 ### Settings in AVRDB for loading the fimware to older 128k Atmega boards:
@@ -15,8 +26,6 @@ AVRUBD utility: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Lat
 The 128k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/enc_1280_6dof_AMC_AASD15A_v2_11_beta_fix5_RGB.zip
 
 
-### INPORTANT notice:
-- After loading new firmware, please hold down the "EXIT" button on the panel and press and release the "RESET" button on the controller to restore default parameters. See how its done on this video: https://www.youtube.com/watch?v=g12Grq-1LBQ
 
 
 ### Alternative settings in AVRDB for loading the firmware to newer 256k Atmega boards:
