@@ -27,7 +27,7 @@ Visually the two boards look identical, except they use different Microcontrolle
 ### AVRUBD utility: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/Firmware%20bootloader%20Utility%2052.zip
 
 
-### Settings in AVRDB for loading the fimware to older 128k Atmega boards:
+### Settings in AVRUBD for loading the fimware to older 128k Atmega boards:
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/1280%20firmware%20update%20option1.jpg)
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/1280%20firmware%20update%20option2.jpg)
 
@@ -36,7 +36,7 @@ The 128k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firm
 
 
 
-### Alternative settings in AVRDB for loading the firmware to newer 256k Atmega boards:
+### Alternative settings in AVRUBD for loading the firmware to newer 256k Atmega boards:
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/2560%20firmware%20update%20option1.jpg)
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/2560%20firmware%20update%20option2.jpg)
 
