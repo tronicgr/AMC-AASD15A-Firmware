@@ -1,4 +1,4 @@
-### This is the latest firmware for AMC-AASD15A... (v2.11 fix5)
+### This is the latest firmware for AMC-AASD15A... (v2.11 fix6)
 
 ~
 ### Be aware there is firmware for two different size Atmega microcontrollers now, Atmega1280 and Atmega2560. If not sure which version you have please ask in Discord before proceeding updating your AMC controller: https://discord.gg/bx4PxYR
@@ -31,7 +31,7 @@ Visually the two boards look identical, except they use different Microcontrolle
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/1280%20firmware%20update%20option1.jpg)
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/1280%20firmware%20update%20option2.jpg)
 
-The 128k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/enc_1280_6dof_AMC_AASD15A_v2_11_beta_fix5_RGB.zip
+The 128k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/enc_1280_6dof_AMC_AASD15A_v2_11_beta_fix6_RGB.zip
 
 
 
@@ -40,18 +40,15 @@ The 128k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firm
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/2560%20firmware%20update%20option1.jpg)
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/2560%20firmware%20update%20option2.jpg)
 
-The 256k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/enc_2560_6dof_AMC_AASD15A_v2_11_beta_fix5_RGB.zip
+The 256k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/enc_2560_6dof_AMC_AASD15A_v2_11_beta_fix6_RGB.zip
 
 
 
 
 
--- enc_6dof_AMC_AASD15A_v2_11_beta_fix5_RGB.zip 
+-- enc_6dof_AMC_AASD15A_v2_11_beta_fix6_RGB.zip 
 --------------------------------------------------
-- Separated standby speed from the spike filter so it can slowly enter or exit online mode.
-- Allows now correct adjustment of the ESC speed during spike filter events, without interfering with Park and Standby motion speeds. 
-- Added stealth LCD colors! To enable hold UP button and press reset until a message appears.
-- Restore Default RGB colors by holding DOWN button and press reset button until the message appears.
+- Added screen saver for the RGB color LCD models. It will turn off the backlight after 5 to 10 minutes (countdown timer used is not precice). It will light up again after any button is pressed or its connected to motion software on-line.
 
 
 
