@@ -1,7 +1,7 @@
 # AMC-AASD15A_Firmware
 Firmware updates for the AMC-AASD15A
 
-### NEW MANUAL v2.3 for the AMC-AASD15A with information for 4DOF+TL+Surge setup
+### MANUAL v2.3 for the AMC-AASD15A with information for 4DOF+TL+Surge setup
 https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Manual-and-Datasheets/AMC-AASD15A_4DOF%2BTL-Simtools_manual_v2_3.pdf
 
 
@@ -26,12 +26,18 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/AMC
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/20201208_201316.gif)
 
 
+-- enc_6dof_AMC_AASD15A_v2_11_beta_fix6_RGB.zip 
+--------------------------------------------------
+- Added screen saver for the RGB color LCD models. It will turn off the backlight after 5 to 10 minutes (countdown timer used is not precice). It will light up again after any button is pressed or its connected to motion software on-line.
+
+
 -- enc_6dof_AMC_AASD15A_v2_11_beta_fix5_RGB.zip 
 --------------------------------------------------
 - Separated standby speed from the spike filter so it can slowly enter or exit online mode.
 - Allows now correct adjustment of the ESC speed during spike filter events, without interfering with Park and Standby motion speeds. 
 - Added stealth LCD colors! To enable hold UP button and press reset until a message appears.
 - Restore Default RGB colors by holding DOWN button and press reset button until the message appears.
+
 
 -- enc_6dof_AMC_AASD15A_v2_11_beta_fix4_RGB.zip 
 --------------------------------------------------
@@ -54,7 +60,6 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/AMC
 See this video for the changes made: https://www.youtube.com/watch?v=DfGoHd0oDw4
 
 
-
 -- enc_6dof_AMC_AASD15A_v2_10_beta_fix8_RGB-menufix.zip
 --------------------------------------------------
 - fixed issue with saving the Filter factor and Spike filter if the controller was not previously online since boot.
@@ -63,15 +68,11 @@ See this video for the changes made: https://www.youtube.com/watch?v=DfGoHd0oDw4
 See this video for the changes made: https://www.youtube.com/watch?v=l9le4nq7fb0
 
 
-
-
 -- enc_6dof_AMC_AASD15A_v2_10_beta_fix7_RGB-menufix.zip
 --------------------------------------------------
 - added support for RGB color LCDs.
 
 https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Beta_Firmware/enc_6dof_AMC_AASD15A_v2_10_beta_fix7_RGB-menufix.zip
-
-
 
 
 -- enc_6dof_AMC_AASD15A_v2_10_beta_fix6.zip
