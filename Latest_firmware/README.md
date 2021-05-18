@@ -42,6 +42,8 @@ The 128k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firm
 
 The 256k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/enc_2560_6dof_AMC_AASD15A_v2_11_beta_fix6_RGB.zip
 
+Here is a video that shows the firmware update procedure for 2560 boards: https://www.youtube.com/watch?v=hrNW2Oc2yg8
+
 
 
 
