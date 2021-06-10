@@ -51,6 +51,8 @@ Here is a video that shows the firmware update procedure for 2560 boards: https:
 -- enc_6dof_AMC_AASD15A_v2_11_beta_fix6_RGB.zip 
 --------------------------------------------------
 - Added screen saver for the RGB color LCD models. It will turn off the backlight after 5 to 10 minutes (countdown timer used is not precice). It will light up again after any button is pressed or its connected to motion software on-line.
+- Fixed bug affecting saving correct stroke on individual actuators if they have different leadscrew size.
+- Fixed bug on actuator7 belt ratio that was saving value from actuator 6 instead.
 
 
 
