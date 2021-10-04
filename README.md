@@ -188,6 +188,7 @@ https://www.youtube.com/watch?v=varxAyA26nc
 release date: 10/08/2019:
   -Fixed the speed of blinking of the Standby LED to correspond the ButtonSpeed setting direction up.
   -Changed the indication LEDs to be OFF by default, enable with DIP Switch 2 --> ON
+  -Removed RC-SERVO CODE.
   -Fixed max stroke calculations depending on the leadscrew and ratio values to 
       prevent buffer overflow of the pulse engine. Table with max stroke values follows:
         
