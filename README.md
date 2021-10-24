@@ -26,6 +26,14 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/AMC
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/20201208_201316.gif)
 
 
+-- enc_6dof_AMC_AASD15A_v2_20_beta_fix0_RGB.zip 
+--------------------------------------------------
+- improved efficieny of LCD menu for easier navigation
+- added security features and better integration with SRS
+- clean up of old unused code and replacement of empty spaces
+- check before save epprom parameters to reduce wear of the memory material
+
+
 -- enc_6dof_AMC_AASD15A_v2_11_beta_fix6_RGB.zip 
 --------------------------------------------------
 - Added screen saver for the RGB color LCD models. It will turn off the backlight after 5 to 10 minutes (countdown timer used is not precice). It will light up again after any button is pressed or its connected to motion software on-line.
