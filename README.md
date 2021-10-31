@@ -1,3 +1,7 @@
+# If you are using SRS, here is a good place to start:
+https://www.simracingstudio.com/forum/motion-profiles-actuator/actuator-setup-links
+
+
 # AMC-AASD15A_Firmware
 Firmware updates for the AMC-AASD15A
 
