@@ -1,4 +1,4 @@
-### This is the latest firmware for AMC-AASD15A... (v2.20 fix0)
+### This is the latest firmware for AMC-AASD15A... (v2.20 fix1)
 
 ~
 ### Be aware there is firmware for two different size Atmega microcontrollers now, Atmega1280 and Atmega2560. If not sure which version you have please ask in Discord before proceeding updating your AMC controller: https://discord.gg/bx4PxYR
@@ -31,7 +31,7 @@ Visually the two boards look identical, except they use different Microcontrolle
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/1280%20firmware%20update%20option1.jpg)
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/1280%20firmware%20update%20option2.jpg)
 
-The 128k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/enc_1280_6dof_AMC_AASD15A_v2_20_beta_fix0_RGB.zip
+The 128k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/enc_1280_6dof_AMC_AASD15A_v2_20_beta_fix1_RGB.zip
 
 
 
@@ -40,7 +40,7 @@ The 128k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firm
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/2560%20firmware%20update%20option1.jpg)
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/2560%20firmware%20update%20option2.jpg)
 
-The 256k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/enc_2560_6dof_AMC_AASD15A_v2_20_beta_fix0_RGB.zip
+The 256k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/enc_2560_6dof_AMC_AASD15A_v2_20_beta_fix1_RGB.zip
 
 Here is a video that shows the firmware update procedure for 2560 boards: https://www.youtube.com/watch?v=hrNW2Oc2yg8
 
@@ -48,12 +48,9 @@ Here is a video that shows the firmware update procedure for 2560 boards: https:
 
 
 
--- enc_6dof_AMC_AASD15A_v2_20_beta_fix0_RGB.zip 
+-- enc_6dof_AMC_AASD15A_v2_20_beta_fix1_RGB.zip 
 --------------------------------------------------
-- improved efficieny of LCD menu for easier navigation
-- added security features and better integration with SRS
-- clean up of old unused code and replacement of empty spaces
-- check before save epprom parameters to reduce wear of the memory material
+- Improved command set for integration with SRS
 
 
 
