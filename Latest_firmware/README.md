@@ -1,5 +1,10 @@
 ### This is the latest firmware for AMC-AASD15A... (v2.20 fix1)
 
+
+# A good step by step guide can be found here: 
+https://www.simracingstudio.com/forum/motion-profiles-actuator/thanos-firmware-update-guide
+
+
 ~
 ### Be aware there is firmware for two different size Atmega microcontrollers now, Atmega1280 and Atmega2560. If not sure which version you have please ask in Discord before proceeding updating your AMC controller: https://discord.gg/bx4PxYR
 
