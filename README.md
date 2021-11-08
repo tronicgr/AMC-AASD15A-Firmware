@@ -559,7 +559,7 @@ Here is a list of the default parameters values you should get when you issue th
 14.Kill switch mode 1-2: 1
 
 CMD55 returns the following numeric values separated by colon ( : ) punctuation mark for Simtools:
-"data:"  Firmwareversion  ":AASD:" Motornumber ":" ; Park_position  ":"  Parkmovespeed  ":"  Parkmovetimeout  ":"  6dofstartpos  ":"  Startmovestep  ":"  Startmovetimeout  ":"  Disableparktype  ":"  Limit  ":"  Klm_mode  ":"  Spike_f_range  ":"  Spike_f_mult1  ":"  Spike_filter_en  ":" Platform_check ":" Estop_mode  ":"               
+"data:"  Firmwareversion  ":AASD:"  Motornumber  ":"  Park_position  ":"  Parkmovespeed  ":"  Parkmovetimeout  ":"  6dofstartpos  ":"  Startmovestep  ":"  Startmovetimeout  ":"  Disableparktype  ":"  Limit  ":"  Klm_mode  ":"  Spike_f_range  ":"  Spike_f_mult1  ":"  Spike_filter_en  ":" Platform_check ":" Estop_mode  ":"               
 
 CMD56 returns the following numeric values separated by colon ( : ) punctuation mark for SRS:
 "dataSRS:" <Firmwareversion> ":" <Betaversion> ":" <AMCModel> ":" <Axis_Number> ":" <Filter_factor> ":" <Spike_range> ":" <Spike_factor> ":" <Spike_filter_en> ":" <Stroke_cm> ":" <Spike_factor_TL> ":" <Spike_filter_en_TL> ":" <Disableparktype> ":"
