@@ -505,12 +505,71 @@ void loop() {
   delay(2);   // wait 2 milliseconds before the next loop
 }
 
+```
+
+### ---List of commands--- for Firmware v2.20 fix1 or newer. The parameters can be changed via simple terminal (250000 bps)
+
+Command Number | Display Parameter | Save Parameter
+------------| ------------ | -------------
+CMD01 |Motornumber: | spv012-spv018
+CMD02 |Disable Park Type: |spv021-spv025
+CMD04 |Park Position: | spv04001-spv04254
+CMD05 |Park Move Speed: | spv05001-spv05100
+CMD06 |Park Move Timeout: | spv0601-spv0690
+CMD07 |Standby Position: | spv07010-spv07245
+CMD08 |Standby Speed: | spv08000-spv08100
+CMD09 |Standby Timeout: | spv0901-spv0990
+CMD10 |Platform Check: | spv101-spv102 
+CMD13 |Estop_mode: | spv131-spv132
+CMD14 |Kill switch mode: | spv141-spv142
+CMD15 |Spike Range: | spv15001-spv15254
+CMD16 |Spike Level: | spv16001-spv16254
+CMD17 |Spike 1=On, 2=Off: | spv171-spv172
+CMD18 |TL Spike Level: | spv18001-spv18254
+CMD19 |TL Spike 1=On, 2=Off: | spv191-spv192
+CMD20 |Filter Factor 0-5: | spv201-spv205
+CMD44 |Display all parameters 
+CMD45 |Print this help page 
+CMD55 |Print delimited parameter list for simtools
+CMD56 |Print delimited parameter list for SRS
+spv45 |Saves all parameters at once
+RQM |  Displays model,revision and number of motors
+Park | Parks the actuators if in standby mode
+
 
 
 
 ```
+The CMD$$ displays each parameter, and spv$$### saves each parameter with the value indicated. 
+To actually store the parameters in the flash memory you need to send "spv45" to save all 
+parameters at once. The "$$" on the spv is the command number, and the "###" is the value, 
+Some parameters have single digit value, some two digit value and some 3 digit value. 
+All values are characters!
 
-### ---List of commands--- The parameters can be changed via simple terminal (250000 bps)
+Here is a list of the default parameters values you should get when you issue the CMD44 command
+(if not like this, you may reset the default parameters via button combination)
+
+01.Motornumber 2-8: 4
+02.Disable park type 1-5: 1
+04.Park Position 0-254: 1
+05.Park_Move_Speed 1-100%: 11
+06.Park_Move_Timeout 1-90: 5
+07.Standby Position 10-245: 127
+08.Standby Speed 0-100%: 24
+09.Standby Timeout 1-90: 5
+13.Actuator Limits 0-50%: 1
+14.Kill switch mode 1-2: 1
+
+CMD55 returns the following numeric values separated by colon ( : ) punctuation mark for Simtools:
+"data:"  Firmwareversion  ":AASD:" Motornumber ":" ; Park_position  ":"  Parkmovespeed  ":"  Parkmovetimeout  ":"  6dofstartpos  ":"  Startmovestep  ":"  Startmovetimeout  ":"  Disableparktype  ":"  Limit  ":"  Klm_mode  ":"  Spike_f_range  ":"  Spike_f_mult1  ":"  Spike_filter_en  ":" Platform_check ":" Estop_mode  ":"               
+
+CMD56 returns the following numeric values separated by colon ( : ) punctuation mark for SRS:
+"dataSRS:" <Firmwareversion> ":" <Betaversion> ":" <AMCModel> ":" <Axis_Number> ":" <Filter_factor> ":" <Spike_range> ":" <Spike_factor> ":" <Spike_filter_en> ":" <Stroke_cm> ":" <Spike_factor_TL> ":" <Spike_filter_en_TL> ":" <Disableparktype> ":"
+
+            
+
+```
+### ---OLD List of commands--- for Firmware v2.11 fix6 or older.The parameters can be changed via simple terminal (250000 bps)
 
 Command Number | Display Parameter | Save Parameter
 ------------| ------------ | -------------
@@ -538,36 +597,6 @@ spv45 |Saves all parameters at once
 RQM |  Displays model,revision and number of motors
 Park | Parks the actuators if in standby mode
 
-```
-The CMD$$ displays each parameter, and spv$$### saves each parameter with the value indicated. 
-To actually store the parameters in the flash memory you need to send "spv45" to save all 
-parameters at once. The "$$" on the spv is the command number, and the "###" is the value, 
-Some parameters have single digit value, some two digit value and some 3 digit value. 
-All values are characters!
-
-Here is a list of the default parameters values you should get when you issue the CMD44 command
-(if not like this, you may reset the default parameters via button combination)
-
-01.Motornumber 2-8: 4
-04.Park Position 0-254: 1
-05.Park_Move_Speed 1-100%: 11
-06.Park_Move_Timeout 1-90: 5
-07.Standby Position 10-245: 127
-08.Standby Speed 0-100%: 24
-09.Standby Timeout 1-90: 5
-10.Disable park type 1-5: 1
-13.Actuator Limits 0-50%: 1
-14.Kill switch mode 1-2: 1
-
-CMD55 returns the following numeric values separated by colon ( : ) punctuation mark for Simtools:
-"data:" <Motornumber> ":" <Parkposition> ":" <Parkmovespeed> ":" <Parkmovetimeout> ":" <StandbyPosition> ":" <StandbySpeed> ":"<StandbyTimeout> ":" <Disableparktype> ":" <ActuatorLimits> ":" <Killswitchmode> ":" <Firmwareversion> ":" <AMCModel>
-
-CMD56 returns the following numeric values separated by colon ( : ) punctuation mark for SRS:
-"dataSRS:" <Firmwareversion> ":" <Betaversion> ":" <AMCModel> ":" <Axis_Number> ":" <Filter_factor> ":" <Spike_range> ":" <Spike_factor> ":" <Spike_filter_en> ":" <Stroke_cm> ":" <Spike_factor_TL> ":" <Spike_filter_en_TL> ":" <Disableparktype> ":"
-
-            
-
-```
 
 
 
