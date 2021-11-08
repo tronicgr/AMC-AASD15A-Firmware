@@ -537,8 +537,6 @@ RQM |  Displays model,revision and number of motors
 Park | Parks the actuators if in standby mode
 
 
-
-
 ```
 The CMD$$ displays each parameter, and spv$$### saves each parameter with the value indicated. 
 To actually store the parameters in the flash memory you need to send "spv45" to save all 
@@ -557,7 +555,7 @@ Here is a list of the default parameters values you should get when you issue th
 07.Standby Position 10-245: 127
 08.Standby Speed 0-100%: 24
 09.Standby Timeout 1-90: 5
-13.Actuator Limits 0-50%: 1
+13.Estop_mode: 1
 14.Kill switch mode 1-2: 1
 
 CMD55 returns the following numeric values separated by colon ( : ) punctuation mark for Simtools:
@@ -597,6 +595,8 @@ spv45 |Saves all parameters at once
 RQM |  Displays model,revision and number of motors
 Park | Parks the actuators if in standby mode
 
+.
+.
 
 
 
