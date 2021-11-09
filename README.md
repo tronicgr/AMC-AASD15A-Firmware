@@ -337,6 +337,9 @@ release date: 5/24/2019:
   -Set manual move test buttons speed (variable depending on the number of motors)
 ```
 
+### ------- Wiring E-stop Button Box on RJ45 connector, PCB v1.4 and after ----------
+![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/RJ45%20E-stop%20button%20box%20diagram.jpg)
+
 
 ### ------------------- Wiring E-stop Buttons and switches - KLM option1 -------------
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/AMC-AASD15A%20park-standby-emergency-force-offline%20diagram.jpg)
