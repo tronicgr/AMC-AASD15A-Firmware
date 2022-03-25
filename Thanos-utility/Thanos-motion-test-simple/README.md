@@ -3,3 +3,9 @@ This is a simple processing schetch with a single slider that will allow you to 
 The Thanos controller is automatically identified and the connection is enabled to it as soon the program runs. 
 You may need to disconnect other USB devices from the computer, a message prompting you to do so may appear.
 
+To Run it you will need to download Processing from here:
+https://processing.org/
+
+
+
+![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Thanos-utility/Thanos-motion-test-simple/Thanos_motion_test_simple.jpg)
