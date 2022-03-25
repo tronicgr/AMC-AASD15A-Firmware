@@ -9,3 +9,9 @@ https://processing.org/
 
 
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Thanos-utility/Thanos-motion-test-simple/Thanos_motion_test_simple.jpg)
+
+
+You can see how this simple test app works on this video:
+https://www.youtube.com/watch?v=RLwRvmXksMI
+
+
