@@ -16,5 +16,5 @@ https://www.youtube.com/watch?v=RLwRvmXksMI
 
 
 ### WARNING!!!
-Modify on your own rick. Improper values or modification of functions, may end up on exceeding actuator speeds and damage your rig or injure youself.
+Modify on your own risk. Improper values or modification of functions, may end up on exceeding actuator speeds and damage your rig or injure youself.
 
