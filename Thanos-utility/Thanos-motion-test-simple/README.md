@@ -15,3 +15,6 @@ You can see how this simple test app works on this video:
 https://www.youtube.com/watch?v=RLwRvmXksMI
 
 
+### WARNING!!!
+Modify on your own rick. Improper values or modification of functions, may end up on exceeding actuator speeds and damage your rig or injure youself.
+
