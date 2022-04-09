@@ -1,4 +1,4 @@
-### This is the latest firmware for AMC-AASD15A... (v2.20 fix1)
+### This is the latest firmware for AMC-AASD15A... (v2.25 fix0)
 
 
 # A good step by step guide can be found here: 
@@ -36,8 +36,9 @@ Visually the two boards look identical, except they use different Microcontrolle
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/1280%20firmware%20update%20option1.jpg)
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/1280%20firmware%20update%20option2.jpg)
 
-The 128k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/enc_1280_6dof_AMC_AASD15A_v2_20_beta_fix1_RGB.zip
+The 128k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA1280_chip/enc_1280_6dof_AMC_AASD15A_v2_25_beta_fix0_RGB.zip
 
+The AVRUBD firmware update utility preset for 2560 chip: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA1280_chip/AVRUBD_%201280_Firmware_bootloader_Utility_52.zip
 
 
 
@@ -45,7 +46,9 @@ The 128k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firm
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/2560%20firmware%20update%20option1.jpg)
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/2560%20firmware%20update%20option2.jpg)
 
-The 256k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/enc_2560_6dof_AMC_AASD15A_v2_20_beta_fix1_RGB.zip
+The 256k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA2560_chip/enc_2560_6dof_AMC_AASD15A_v2_25_beta_fix0_RGB.zip
+
+The AVRUBD firmware update utility preset for 2560 chip: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA2560_chip/AVRUBD_%202560_Firmware_bootloader_Utility_52.zip
 
 Here is a video that shows the firmware update procedure for 2560 boards: https://www.youtube.com/watch?v=hrNW2Oc2yg8
 
@@ -53,9 +56,12 @@ Here is a video that shows the firmware update procedure for 2560 boards: https:
 
 
 
--- enc_6dof_AMC_AASD15A_v2_20_beta_fix1_RGB.zip 
+-- enc_XXXX_6dof_AMC_AASD15A_v2_25_beta_fix0_RGB.zip 
 --------------------------------------------------
-- Improved command set for integration with SRS
+- Added state machine for the LCD refresh to be performed only when needed.
+- Will display the state of the servos STANDBY or PARK immediately.
+- Improved the automated motion when not connected to the motion software.
+- Fixed a bug where a timer failed to restore affecting the colors of the LCD during online motion.
 
 
 
