@@ -1,6 +1,17 @@
 ### This is the latest firmware for AMC-AASD15A... (v2.25 fix0)
 
 
+-- enc_XXXX_6dof_AMC_AASD15A_v2_25_beta_fix0_RGB.zip 
+--------------------------------------------------
+- Added state machine for the LCD refresh to be performed only when needed.
+- Will display the state of the servos STANDBY or PARK immediately.
+- Improved the automated motion when not connected to the motion software.
+- Fixed a bug where a timer failed to restore affecting the colors of the LCD during online motion.
+- https://www.youtube.com/watch?v=kTXPci8b8pU
+
+
+
+
 # A good step by step guide can be found here: 
 https://www.simracingstudio.com/forum/motion-profiles-actuator/thanos-firmware-update-guide
 
@@ -52,16 +63,5 @@ The AVRUBD firmware update utility preset for 2560 chip: https://github.com/tron
 
 Here is a video that shows the firmware update procedure for 2560 boards: https://www.youtube.com/watch?v=hrNW2Oc2yg8
 
-
-
-
-
--- enc_XXXX_6dof_AMC_AASD15A_v2_25_beta_fix0_RGB.zip 
---------------------------------------------------
-- Added state machine for the LCD refresh to be performed only when needed.
-- Will display the state of the servos STANDBY or PARK immediately.
-- Improved the automated motion when not connected to the motion software.
-- Fixed a bug where a timer failed to restore affecting the colors of the LCD during online motion.
-https://www.youtube.com/watch?v=kTXPci8b8pU
 
 
