@@ -29,6 +29,17 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/AMC
 
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/20201208_201316.gif)
 
+
+-- enc_XXXX_6dof_AMC_AASD15A_v2_25_beta_fix0_RGB.zip 
+--------------------------------------------------
+- Added state machine for the LCD refresh to be performed only when needed.
+- Will display the state of the servos STANDBY or PARK immediately.
+- Improved the automated motion when not connected to the motion software.
+- Fixed a bug where a timer failed to restore affecting the colors of the LCD during online motion.
+https://www.youtube.com/watch?v=kTXPci8b8pU
+
+
+
 -- enc_6dof_AMC_AASD15A_v2_20_beta_fix1_RGB.zip 
 --------------------------------------------------
 - Improved command set for integration with SRS
