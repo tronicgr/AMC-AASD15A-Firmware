@@ -36,7 +36,7 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/AMC
 - Will display the state of the servos STANDBY or PARK immediately.
 - Improved the automated motion when not connected to the motion software.
 - Fixed a bug where a timer failed to restore affecting the colors of the LCD during online motion.
-https://www.youtube.com/watch?v=kTXPci8b8pU
+- https://www.youtube.com/watch?v=kTXPci8b8pU
 
 
 
