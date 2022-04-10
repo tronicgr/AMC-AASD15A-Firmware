@@ -40,7 +40,7 @@ Visually the two boards look identical, except they use different Microcontrolle
 
 
 
-### AVRUBD utility: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/Firmware%20bootloader%20Utility%2052.zip
+### The AVRUBD utility is located on each firmware folder, see links below.
 
 
 ### Settings in AVRUBD for loading the fimware to older 128k Atmega boards:
