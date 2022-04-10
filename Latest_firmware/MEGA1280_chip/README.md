@@ -1,5 +1,5 @@
-Firmware files for AtMega1280 chip (128k).
+Firmware files for ATmega1280 chip (128k).
 
-Firmware file link:
+-Firmware file
 
-AVRUBD utility to update the firmware link with settings for 1280 chip:
+-AVRUBD utility to update the firmware, with settings for 1280 chip
