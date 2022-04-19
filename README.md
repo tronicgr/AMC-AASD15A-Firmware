@@ -25,7 +25,7 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/tree/master/Thanos-utility/AMC-
 
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Thanos-utility/AMC-AASD_Config_tool/AMC-AASD15A-config-tool.jpg)
 
-If transitioning from SFX100 software to use the AMC-AASD15A, please don't forget the extra parameters on the servo drives!!
+### If transitioning from SFX100 software to use the AMC-AASD15A, please don't forget the extra parameters on the servo drives!!
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Manual-and-Datasheets/AASD-15A_parameters_for_SFX100_users_not_to_forget.jpg)
 
 .
