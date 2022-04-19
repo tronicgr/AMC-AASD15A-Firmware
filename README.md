@@ -30,6 +30,11 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/AMC
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/20201208_201316.gif)
 
 
+-- enc_XXXX_6dof_AMC_AASD15A_v2_26_beta_fix0_RGB.zip 
+--------------------------------------------------
+- Added support for new AMC Config tool with more available options
+
+
 -- enc_XXXX_6dof_AMC_AASD15A_v2_25_beta_fix0_RGB.zip 
 --------------------------------------------------
 - Added state machine for the LCD refresh to be performed only when needed.
