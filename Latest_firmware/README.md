@@ -4,7 +4,8 @@
 -- enc_XXXX_6dof_AMC_AASD15A_v2_26_beta_fix0_RGB.zip 
 --------------------------------------------------
 - Added support for new AMC Config tool with more available options
-
+https://github.com/tronicgr/AMC-AASD15A-Firmware/tree/master/Thanos-utility/AMC-AASD_Config_tool
+![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Thanos-utility/AMC-AASD_Config_tool/AMC-AASD15A-config-tool.jpg)
 
 
 
