@@ -1,13 +1,9 @@
-### This is the latest firmware for AMC-AASD15A... (v2.25 fix0)
+### This is the latest firmware for AMC-AASD15A... (v2.26 fix0)
 
 
--- enc_XXXX_6dof_AMC_AASD15A_v2_25_beta_fix0_RGB.zip 
+-- enc_XXXX_6dof_AMC_AASD15A_v2_26_beta_fix0_RGB.zip 
 --------------------------------------------------
-- Added state machine for the LCD refresh to be performed only when needed.
-- Will display the state of the servos STANDBY or PARK immediately.
-- Improved the automated motion when not connected to the motion software.
-- Fixed a bug where a timer failed to restore affecting the colors of the LCD during online motion.
-- https://www.youtube.com/watch?v=kTXPci8b8pU
+- Added support for new AMC Config tool with more available options
 
 
 
