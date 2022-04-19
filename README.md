@@ -21,10 +21,11 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/tree/master/Simtools_interface_
 
 
 ### You can use the AMC config tool to access and modify the parameters in the AMC-AASD15A:
-https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/AMC_Config_tool_1_2.zip
+https://github.com/tronicgr/AMC-AASD15A-Firmware/tree/master/Thanos-utility/AMC-AASD_Config_tool
 
-![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Beta_Firmware/AMC-Config-tool-v1_2_AASD.jpg)
+![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Thanos-utility/AMC-AASD_Config_tool/AMC-AASD15A-config-tool.jpg)
 
+.
 
 
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/20201208_201316.gif)
@@ -33,7 +34,6 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/AMC
 -- enc_XXXX_6dof_AMC_AASD15A_v2_26_beta_fix0_RGB.zip 
 --------------------------------------------------
 - Added support for new AMC Config tool with more available options
-![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Thanos-utility/AMC-AASD_Config_tool/AMC-AASD15A-config-tool.jpg)
 
 
 -- enc_XXXX_6dof_AMC_AASD15A_v2_25_beta_fix0_RGB.zip 
