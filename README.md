@@ -14,6 +14,9 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Manual-and-Datashee
 ### Firmware Update procedure video
 https://www.youtube.com/watch?v=WkAm-MI0xbo
 
+### IMPORTANT: 
+After loading the new firmware, hold down the 'EXIT' button on the Thanos controller. While continuing to hold down the 'EXIT' button, press and release the "RESET" button to restore the default parameters. Now release the 'EXIT' button. This is needed to remove any incorrectly stored values from the epprom from the previous firmware as sometimes these get updated too. See this video: https://www.youtube.com/watch?v=g12Grq-1LBQ
+
 
 ### AMC-AASD15A interface plugin for Simtools
 You can find the Simtools Interface plugin here: 
@@ -110,7 +113,6 @@ See this video for the changes made: https://www.youtube.com/watch?v=l9le4nq7fb0
 --------------------------------------------------
 - added support for RGB color LCDs.
 
-https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Beta_Firmware/enc_6dof_AMC_AASD15A_v2_10_beta_fix7_RGB-menufix.zip
 
 
 -- enc_6dof_AMC_AASD15A_v2_10_beta_fix6.zip
