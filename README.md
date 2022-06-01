@@ -33,7 +33,7 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/tree/master/Thanos-utility/AMC-
 
 .
 
-
+(the animation below is to show the RGB LCD, refer above for the latest firmware version)
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/20201208_201316.gif)
 
 
