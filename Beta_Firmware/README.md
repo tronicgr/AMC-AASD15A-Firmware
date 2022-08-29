@@ -1,5 +1,10 @@
 Beta Versions. Use on own risk
 
+-- enc_2560_6dof_AMC_AASD15A_v2_26_beta_fix2_RGB_BT2
+--------------------------------------------------
+-- added extra delay for Belt Tensioner trim switch. Beta test version
+https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Beta_Firmware/enc_2560_6dof_AMC_AASD15A_v2_26_beta_fix2_RGB_BT2.zip
+
 
 -- enc_2560_6dof_AMC_AASD15A_v2_26_beta_fix2_RGB_BT1
 --------------------------------------------------
