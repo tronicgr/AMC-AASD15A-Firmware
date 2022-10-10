@@ -37,9 +37,23 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/tree/master/Thanos-utility/AMC-
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/20201208_201316.gif)
 
 
+-- enc_XXXX_6dof_AMC_AASD15A_v2_26_beta_fix5_RGB.zip 
+--------------------------------------------------
+- Added manual buttons (or dual switch) control for adjusting Belt Tensioners based on AASD servos.
+- Rewrite of the servo control engine for smoother and accurate change of direction. 
+- Added manual calibration of the servos by holding EXIT+DOWN buttons at any time
+- Minor fixes on the interface to correct refreshing and artifacts left on the LCD.
+- Rotary actuators calculations and parameters were removed from the 1280 chip version firmware, to allow for program space.
+
+
+
 -- enc_XXXX_6dof_AMC_AASD15A_v2_26_beta_fix0_RGB.zip 
 --------------------------------------------------
 - Added support for new AMC Config tool with more available options
+- .
+https://github.com/tronicgr/AMC-AASD15A-Firmware/tree/master/Thanos-utility/AMC-AASD_Config_tool
+- .
+![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Thanos-utility/AMC-AASD_Config_tool/AMC-AASD15A-config-tool.jpg)
 
 
 -- enc_XXXX_6dof_AMC_AASD15A_v2_25_beta_fix0_RGB.zip 
