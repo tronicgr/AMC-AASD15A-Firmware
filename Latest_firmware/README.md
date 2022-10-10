@@ -47,7 +47,7 @@ Visually the two boards look identical, except they use different Microcontrolle
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/1280%20firmware%20update%20option1.jpg)
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/1280%20firmware%20update%20option2.jpg)
 
-The 128k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA1280_chip/enc_1280_6dof_AMC_AASD15A_v2_26_beta_fix0_RGB.zip
+The 128k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA1280_chip/enc_1280_6dof_AMC_AASD15A_v2_26_beta_fix5_RGB.zip
 
 The AVRUBD firmware update utility preset for 2560 chip: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA1280_chip/AVRUBD_%201280_Firmware_bootloader_Utility_52.zip
 
@@ -57,7 +57,7 @@ The AVRUBD firmware update utility preset for 2560 chip: https://github.com/tron
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/2560%20firmware%20update%20option1.jpg)
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/2560%20firmware%20update%20option2.jpg)
 
-The 256k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA2560_chip/enc_2560_6dof_AMC_AASD15A_v2_26_beta_fix0_RGB.zip
+The 256k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA2560_chip/enc_2560_6dof_AMC_AASD15A_v2_26_beta_fix5_RGB.zip
 
 The AVRUBD firmware update utility preset for 2560 chip: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA2560_chip/AVRUBD_%202560_Firmware_bootloader_Utility_52.zip
 
