@@ -49,7 +49,7 @@ Visually the two boards look identical, except they use different Microcontrolle
 
 The 128k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA1280_chip/enc_1280_6dof_AMC_AASD15A_v2_26_beta_fix5_RGB.zip
 
-The AVRUBD firmware update utility preset for 2560 chip: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA1280_chip/AVRUBD_%201280_Firmware_bootloader_Utility_52.zip
+The AVRUBD firmware update utility preset for 1280 chip: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA1280_chip/AVRUBD_%201280_Firmware_bootloader_Utility_52.zip
 
 
 
