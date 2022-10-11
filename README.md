@@ -5,8 +5,8 @@ https://www.simracingstudio.com/forum/motion-profiles-actuator/actuator-setup-li
 # AMC-AASD15A_Firmware
 Firmware updates for the AMC-AASD15A
 
-### NEW MANUAL v2.8 for the AMC-AASD15A with information for 4DOF+TL+Surge setup
-https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Manual-and-Datasheets/User_Manual_v2_8-AMC-AASD15A_4DOF%2BTL%2BSurge-SRS-Simtools.pdf
+### NEW MANUAL v2.9 for the AMC-AASD15A with information for 4DOF+TL+Surge setup
+https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Manual-and-Datasheets/User_Manual_v2_9-AMC-AASD15A_4DOF%2BTL%2BSurge-SRS-Simtools.pdf
 
 
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/IMG_20190518_080904_sm.jpg)
@@ -19,7 +19,7 @@ After loading the new firmware, hold down the 'EXIT' button on the Thanos contro
 
 
 ### AMC-AASD15A interface plugin for Simtools
-You can find the Simtools Interface plugin here: 
+You can find the Simtools2  Interface plugin here: 
 https://github.com/tronicgr/AMC-AASD15A-Firmware/tree/master/Simtools_interface_plugin
 
 
