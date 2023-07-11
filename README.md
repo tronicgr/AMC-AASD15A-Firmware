@@ -37,6 +37,14 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/tree/master/Thanos-utility/AMC-
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/20201208_201316.gif)
 
 
+-- enc_2560_6dof_AMC_AASD15A_v2_26_beta_fix6_RGB.zip (2560 chipset only)
+--------------------------------------------------
+- Added physical pin outputs for the Spike Filter when activated, to allow hook up external monitoring hardware (LED, sound circuit, mechanical indication etc).
+- Added option for scaled range for the double TL actuators 5 & 7, allowing seperate range for front back, while keeping them centered. 
+
+https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA2560_chip/enc_2560_6dof_AMC_AASD15A_v2_26_beta_fix6_RGB.zip
+
+
 -- enc_XXXX_6dof_AMC_AASD15A_v2_26_beta_fix5_RGB.zip 
 --------------------------------------------------
 - Added manual buttons (or dual switch) control for adjusting Belt Tensioners based on AASD servos.
