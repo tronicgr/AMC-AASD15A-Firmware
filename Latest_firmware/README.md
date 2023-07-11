@@ -1,13 +1,13 @@
-### This is the latest firmware for AMC-AASD15A... (v2.26 fix5)
+### This is the latest firmware for AMC-AASD15A... (v2.26 fix6 - 2560 version only)
 
 
--- enc_XXXX_6dof_AMC_AASD15A_v2_26_beta_fix5_RGB.zip 
+-- enc_2560_6dof_AMC_AASD15A_v2_26_beta_fix6_RGB.zip 
 --------------------------------------------------
-- Added manual buttons (or dual switch) control for adjusting Belt Tensioners based on AASD servos.
-- Rewrite of the servo control engine for smoother and accurate change of direction. 
-- Added manual calibration of the servos by holding EXIT+DOWN buttons at any time
-- Minor fixes on the interface to correct refreshing and artifacts left on the LCD.
-- Rotary actuators calculations and parameters were removed from the 1280 chip version firmware, to allow for program space.
+- Added physical pin outputs for the Spike Filter when activated, to allow hook up external monitoring hardware (LED, sound circuit, mechanical indication etc).
+- Added option for scaled range for the double TL actuators 5 & 7, allowing seperate range for front back, while keeping them centered. 
+
+https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA2560_chip/enc_2560_6dof_AMC_AASD15A_v2_26_beta_fix6_RGB.zip
+
 
 
 
