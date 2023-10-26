@@ -411,69 +411,6 @@ Simple 3.7v LEDs:
 Mosfet Driver link: https://www.amazon.com/dp/B07NWD8W26/
 
 
------Simplified example code for sending axis data (for arduino):
-int outputValue0 = 0;        // value output
-int outputValue1 = 0;        // value output
-int outputValue2 = 0;        // value output
-int outputValue3 = 0;        // value output
-int outputValue4 = 0;        // value output
-int outputValue5 = 0;        // value output
-int outputValue6 = 0;        // value output
-int outputValue7 = 0;        // value output
-byte buf0[2];
-byte buf1[2];
-byte buf2[2];
-byte buf3[2];
-byte buf4[2];
-byte buf5[2];
-byte buf6[2];
-byte buf7[2];
-byte ID[2];
-byte endstring[2];
-void setup() {
-  Serial.begin(250000);
-}
-void loop() {
-  // ID AXIS1 AXIS2 AXIS3 AXIS4 AXIS5 AXIS6 AXIS7 AXIS8 LF/CR
-  // - The ID is byte values 0xFF + 0xFF
-  // - Each Axis is 16bit wide.
-  // - LF+CR is required in the end (0x0A + 0x0D)
-  // change the analog out value:
-  ID[0] = 255;
-  ID[1] = 255;
-  buf0[1] = outputValue0 & 255;
-  buf0[0] = (outputValue0 >> 8) & 255;
-  buf1[1] = outputValue1 & 255;
-  buf1[0] = (outputValue1 >> 8) & 255;
-  buf2[1] = outputValue2 & 255;
-  buf2[0] = (outputValue2 >> 8) & 255;
-  buf3[1] = outputValue3 & 255;
-  buf3[0] = (outputValue3 >> 8) & 255;
-  buf4[1] = outputValue4 & 255;
-  buf4[0] = (outputValue4 >> 8) & 255;
-  buf5[1] = outputValue5 & 255;
-  buf5[0] = (outputValue5 >> 8) & 255;
-  buf6[1] = outputValue6 & 255;
-  buf6[0] = (outputValue6 >> 8) & 255;
-  buf7[1] = outputValue7 & 255;
-  buf7[0] = (outputValue7 >> 8) & 255;
-  endstring[0] = 10; //LF
-  endstring[1] = 13; //CR
-  Serial.write(ID, sizeof(ID));
-  Serial.write(buf0, sizeof(buf0));
-  Serial.write(buf1, sizeof(buf1));
-  Serial.write(buf2, sizeof(buf2));
-  Serial.write(buf3, sizeof(buf3));
-  Serial.write(buf4, sizeof(buf4));
-  Serial.write(buf5, sizeof(buf5));
-  Serial.write(buf6, sizeof(buf5));
-  Serial.write(buf7, sizeof(buf5));
-  Serial.write(endstring, sizeof(endstring));
-  delay(2);   // wait 2 milliseconds before the next loop
-}
-
-
-
 
 
 ### -------- Using older AMC1280USB controller with firmware for AMC-AASD15A ---------
