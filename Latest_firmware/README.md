@@ -1,15 +1,10 @@
 ### This is the latest firmware for AMC-AASD15A... (v2.26 fix6 - 2560 version only)
 
-
--- enc_2560_6dof_AMC_AASD15A_v2_26_beta_fix6_RGB.zip 
+-- enc_2560_6dof_AMC_AASD15A_v2_26_beta_fix7_RGB.zip 
 --------------------------------------------------
-- Added physical pin outputs for the Spike Filter when activated, to allow hook up external monitoring hardware (LED, sound circuit, mechanical indication etc).
-- Added option for scaled range for the double TL actuators 5 & 7, allowing separate range for front back, while keeping them centered.
-- Fixed bug that added delay if the motion software stopped sending motion cues while the Spike Filter was active.
+- Added increments of 1mm for setting more accurate stroke values for the actuators
 
-https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA2560_chip/enc_2560_6dof_AMC_AASD15A_v2_26_beta_fix6_RGB.zip
-
-
+[enc_2560_6dof_AMC_AASD15A_v2_26_beta_fix7_RGB.zip](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA2560_chip/enc_2560_6dof_AMC_AASD15A_v2_26_beta_fix7_RGB.zip)
 
 
 
