@@ -23,12 +23,6 @@ https://www.youtube.com/watch?v=WkAm-MI0xbo
 
 
 ### How to identify if you have 128k or 256k board:
-You can turn off the DIP switch #1 and reset the board. It should display an additional "2560" on the LCD if you have the 256k board:
-![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/2560_firm_LCD.jpg)
-Otherwise the 128k boards with firmware v2.11 fix5 or older will display this on the LCD:
-![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/1280_firm_LCD.jpg)
-
-
 Visually the two boards look identical, except they use different Microcontroller each.
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/1280vs2560_boards.jpg)
 
