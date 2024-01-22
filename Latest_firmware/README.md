@@ -1,4 +1,4 @@
-### This is the latest firmware for AMC-AASD15A... (v2.26 fix6 - 2560 version only)
+### This is the latest firmware for AMC-AASD15A... (v2.26 fix7 - 2560 version only)
 
 -- enc_2560_6dof_AMC_AASD15A_v2_26_beta_fix7_RGB.zip 
 --------------------------------------------------
@@ -43,7 +43,7 @@ Visually the two boards look identical, except they use different Microcontrolle
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/1280%20firmware%20update%20option1.jpg)
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/1280%20firmware%20update%20option2.jpg)
 
-The 128k devices use this firmware: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA1280_chip/enc_1280_6dof_AMC_AASD15A_v2_26_beta_fix5_RGB.zip
+The 128k devices use this firmware: [enc_1280_6dof_AMC_AASD15A_v2_26_beta_fix5_RGB.zip](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA1280_chip/enc_1280_6dof_AMC_AASD15A_v2_26_beta_fix5_RGB.zip)
 
 The AVRUBD firmware update utility preset for 1280 chip: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA1280_chip/AVRUBD_%201280_Firmware_bootloader_Utility_52.zip
 
