@@ -5,7 +5,7 @@
 - Added increments of 1mm for setting more accurate stroke values for the actuators
 - Fuctionality display on this video: https://www.youtube.com/watch?v=fwYaPWbuGl4
 
-Dowonload shortcut: [enc_2560_6dof_AMC_AASD15A_v2_26_beta_fix7_RGB.zip](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA2560_chip/enc_2560_6dof_AMC_AASD15A_v2_26_beta_fix7_RGB.zip)
+Download shortcut: [enc_2560_6dof_AMC_AASD15A_v2_26_beta_fix7_RGB.zip](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA2560_chip/enc_2560_6dof_AMC_AASD15A_v2_26_beta_fix7_RGB.zip)
 
 
 
