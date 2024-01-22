@@ -40,6 +40,7 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/tree/master/Thanos-utility/AMC-
 -- enc_2560_6dof_AMC_AASD15A_v2_26_beta_fix7_RGB.zip (2560 chipset only)
 --------------------------------------------------
 - Added increments of 1mm for setting more accurate stroke values for the actuators
+- Fuctionality display on this video: https://www.youtube.com/watch?v=fwYaPWbuGl4
   
 
 -- enc_2560_6dof_AMC_AASD15A_v2_26_beta_fix6_RGB.zip (2560 chipset only)
