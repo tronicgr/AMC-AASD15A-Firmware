@@ -6,15 +6,12 @@ You may need to disconnect other USB devices from the computer, a message prompt
 To Run it you will need to download Processing from here:
 https://processing.org/
 
-Or if you want a pre-compiled version, you can download it here:
-https://www.dropbox.com/scl/fo/o086s6gv68p7e56ppy1a7/h?dl=0&rlkey=l92qpcht8ktbtw4w85f5gt6tn
-
-
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Thanos-utility/Thanos-motion-test-simple/Thanos_motion_test_simple.jpg)
 
 
-You can see how this simple test app works on this video:
-https://www.youtube.com/watch?v=RLwRvmXksMI
+Updated version of the tool has sliders for all actuators now (amc_test_spike_on_off_all_sliders.pde):
+
+![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Thanos-utility/Thanos-motion-test-simple/all_sliders.jpg)
 
 
 ### WARNING!!!
