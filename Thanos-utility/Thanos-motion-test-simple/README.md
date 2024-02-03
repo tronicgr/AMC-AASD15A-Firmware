@@ -8,10 +8,16 @@ https://processing.org/
 
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Thanos-utility/Thanos-motion-test-simple/Thanos_motion_test_simple.jpg)
 
+.
+.
+.
 
-Updated version of the tool has sliders for all actuators now (amc_test_spike_on_off_all_sliders.pde):
+- Updated version of the tool has sliders for all actuators now (amc_test_spike_on_off_all_sliders.pde):
 
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Thanos-utility/Thanos-motion-test-simple/all_sliders.jpg)
+
+
+- Watch how this tool works on this video: https://www.youtube.com/watch?v=LwST1zbIPr8
 
 
 ### WARNING!!!
