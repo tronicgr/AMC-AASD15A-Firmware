@@ -49,7 +49,7 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/tree/master/Thanos-utility/AMC-
 
 - Added numerous automation and feedback regarding integration with Simhub, to automate start-stop of the whole platform, and even power off servos on exit or when the motion is idle. A list of the available option will appear on Simhub if supported by the firmware. The new automation allows for very smooth transitions between playing game, or pausing, or handling estop.
 
-- Fuctionality display on this video:https://www.youtube.com/watch?v=YFQsrKTR2tM
+- Functionality display on this video:https://www.youtube.com/watch?v=YFQsrKTR2tM
 
 
 -- enc_2560_6dof_AMC_AASD15A_v2_26_beta_fix7_RGB.zip (2560 chipset only)
