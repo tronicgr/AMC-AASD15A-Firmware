@@ -13,7 +13,7 @@
 
 - Added numerous automation and feedback regarding integration with Simhub, to automate start-stop of the whole platform, and even power off servos on exit or when the motion is idle. A list of the available option will appear on Simhub if supported by the firmware. The new automation allows for very smooth transitions between playing game, or pausing, or handling estop.
 
-- Fuctionality display on this video:https://www.youtube.com/watch?v=YFQsrKTR2tM
+- Functionality display on this video:https://www.youtube.com/watch?v=YFQsrKTR2tM
 
 - Download shortcut: 
 [enc_2560_SH_AMC_AASD15A_v2_26_fix8_RGB.zip](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA2560_chip/enc_2560_SH_AMC_AASD15A_v2_26_fix8_RGB.zip)
