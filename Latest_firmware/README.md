@@ -1,11 +1,24 @@
 ### This is the latest firmware for AMC-AASD15A... (v2.26 fix7 - 2560 version only)
 
--- enc_2560_6dof_AMC_AASD15A_v2_26_beta_fix7_RGB.zip 
+-- enc_2560_SH_AMC_AASD15A_v2_26_fix8_RGB 
 --------------------------------------------------
-- Added increments of 1mm for setting more accurate stroke values for the actuators
-- Fuctionality display on this video: https://www.youtube.com/watch?v=fwYaPWbuGl4
+- Improved Power Saving function that can
+- 1. Power OFF and ON Vertical actuators, Power OFF only if parked to 0% 
+- 2. Power OFF and ON Horizontal actuators
+- 3. Adjustable timer for turning off the LCD and the power to the servos
 
-Download shortcut: [enc_2560_6dof_AMC_AASD15A_v2_26_beta_fix7_RGB.zip](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA2560_chip/enc_2560_6dof_AMC_AASD15A_v2_26_beta_fix7_RGB.zip)
+- Added Option to adjust Backtrack of the motor upon calibration from home position. Allows to set the backtrack small enough to avoid having drops when power is turned off.
+- Added option to skip Standby state and move the actuators directly to Park position upon finishing the motion tasks.
+- Added more options in the Belt Tensioner section, where you can define either single or dual belt and the ports used, as well if the backtrack will be 0% or user defined.
+
+- Added numerous automation and feedback regarding integration with Simhub, to automate start-stop of the whole platform, and even power off servos on exit or when the motion is idle. A list of the available option will appear on Simhub if supported by the firmware. The new automation allows for very smooth transitions between playing game, or pausing, or handling estop.
+
+- Fuctionality display on this video:https://www.youtube.com/watch?v=YFQsrKTR2tM
+
+- Download shortcut: 
+[enc_2560_SH_AMC_AASD15A_v2_26_fix8_RGB.zip](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA2560_chip/enc_2560_SH_AMC_AASD15A_v2_26_fix8_RGB.zip)
+
+  
 
 
 
