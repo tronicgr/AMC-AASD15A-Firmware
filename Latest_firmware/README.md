@@ -1,6 +1,6 @@
-### This is the latest firmware for AMC-AASD15A... (v2.26 fix7 - 2560 version only)
+### This is the latest firmware for AMC-AASD15A... (v2.26 fix8 - 2560 version only)
 
--- enc_2560_SH_AMC_AASD15A_v2_26_fix8_RGB 
+-- enc_2560_SH_AMC_AASD15A_v2_26_fix8_RGB (2560 chipset only)
 --------------------------------------------------
 - Improved Power Saving function that can
 - 1. Power OFF and ON Vertical actuators, Power OFF only if parked to 0% 
