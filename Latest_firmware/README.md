@@ -30,7 +30,7 @@ https://www.simracingstudio.com/forum/motion-profiles-actuator/thanos-firmware-u
 ### Be aware there is firmware for two different size Atmega microcontrollers now, Atmega1280 and Atmega2560. If not sure which version you have please ask in Discord before proceeding updating your AMC controller: https://discord.gg/bx4PxYR
 
 ### Firmware Update procedure video
-https://www.youtube.com/watch?v=WkAm-MI0xbo
+https://www.youtube.com/watch?v=F8kSDIicgcA
 
 ### INPORTANT notice:
 - After loading new firmware, please hold down the "EXIT" button on the panel and press and release the "RESET" button on the controller to restore default parameters. See how its done on this video: https://www.youtube.com/watch?v=g12Grq-1LBQ
