@@ -1,6 +1,6 @@
 Firmware files for AtMega2560 chip (256k).
 
--Firmware file link.
+-Firmware file link. (download the zip file and unpack it before using).
 
 -AVRUBD utility to update the firmware, with settings for 2560 chip.
 
