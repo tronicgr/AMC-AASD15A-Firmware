@@ -8,7 +8,7 @@
 - Belt tensioner can also power off with Simhub power saving option, as long is defined as vertical actuator type.
 
 - Download shortcut: 
-[enc_2560_SH_AMC_AASD15A_v2_26_fix9_RGB.zip](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA2560_chip/enc_2560_SH_AMC_AASD15A_v2_26_fix9_RGB.hex)
+[enc_2560_SH_AMC_AASD15A_v2_26_fix9_RGB.zip](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA2560_chip/enc_2560_SH_AMC_AASD15A_v2_26_fix9_RGB.zip)
 
 
 
