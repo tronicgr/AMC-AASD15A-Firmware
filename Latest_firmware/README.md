@@ -69,7 +69,7 @@ The AVRUBD firmware update utility preset for 1280 chip: https://github.com/tron
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/2560%20firmware%20update%20option1.jpg)
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/2560%20firmware%20update%20option2.jpg)
 
-The 256k devices use this firmware: [enc_2560_6dof_AMC_AASD15A_v2_26_beta_fix7_RGB.zip](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA2560_chip/enc_2560_6dof_AMC_AASD15A_v2_26_beta_fix7_RGB.zip)
+The 256k devices use the firmware here: https://github.com/tronicgr/AMC-AASD15A-Firmware/tree/master/Latest_firmware/MEGA2560_chip
 
 The AVRUBD firmware update utility preset for 2560 chip: https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA2560_chip/AVRUBD_%202560_Firmware_bootloader_Utility_52.zip
 
