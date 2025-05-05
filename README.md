@@ -36,6 +36,16 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/tree/master/Thanos-utility/AMC-
 (the animation below is to show the RGB LCD, refer above for the latest firmware version)
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/20201208_201316.gif)
 
+
+
+-- enc_2560_SH_AMC_AASD15A_v2_26_fix9_RGB (2560 chipset only)
+--------------------------------------------------
+- Added backtrack for the defined vertical actuators, to correctly reposition when using the Simhub power saving option.
+- Fixed calibration of horizontal actuators to be non blocking. Now repositions to 50% in the background.
+- Belt tensioner can also power off with Simhub power saving option, as long is defined as vertical actuator type.
+
+
+
 -- enc_2560_SH_AMC_AASD15A_v2_26_fix8_RGB (2560 chipset only)
 --------------------------------------------------
 - Improved Power Saving function that can
