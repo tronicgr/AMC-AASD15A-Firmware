@@ -5,4 +5,4 @@ Firmware files for AtMega2560 chip (256k).
 -AVRUBD utility to update the firmware, with settings for 2560 chip.
 
 
-# Warning: DONT try loading the firmware for 2560 chipset on the 1280 chipset, it can cause loss, or overwrite of the bootloader.
+# Please use the AVRUBD utility in this folder to update the firmware on the controller.
