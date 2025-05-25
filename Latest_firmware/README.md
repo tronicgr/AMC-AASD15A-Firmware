@@ -7,7 +7,8 @@
 - Fixed calibration of horizontal actuators to be non blocking. Now repositions to 50% in the background.
 - Belt tensioner can also power off with Simhub power saving option, as long is defined as vertical actuator type.
 - FIXED LCD Menu rollover overflow
---- ADDED platform presets:
+- 
+-- ADDED platform presets:
 - 1. eracinglab platform 2xTL/Surge
 - 2. eracinglab platform Belt/TL/SURGE
 - 3. HEXAPOD - ROTARY (50:1, 140degrees)
