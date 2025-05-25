@@ -1,14 +1,20 @@
 ### This is the latest firmware for AMC-AASD15A... (v2.26 fix9 - 2560 version only)
 
 
--- enc_2560_SH_AMC_AASD15A_v2_26_fix9_RGB (2560 chipset only)
+-- enc_2560_SH_AMC_AASD15A_v2_26_fix9-2_RGB (2560 chipset only) (5/25/2025)
 --------------------------------------------------
 - Added backtrack for the defined vertical actuators, to correctly reposition when using the Simhub power saving option.
 - Fixed calibration of horizontal actuators to be non blocking. Now repositions to 50% in the background.
 - Belt tensioner can also power off with Simhub power saving option, as long is defined as vertical actuator type.
+- FIXED LCD Menu rollover overflow
+--- ADDED platform presets:
+- 1. eracinglab platform 2xTL/Surge
+- 2. eracinglab platform Belt/TL/SURGE
+- 3. HEXAPOD - ROTARY (50:1, 140degrees)
+- ADDED Parameters export dump, and quick manual F-Stop test sequence.
 
 - Download shortcut: 
-[enc_2560_SH_AMC_AASD15A_v2_26_fix9_RGB.zip](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA2560_chip/enc_2560_SH_AMC_AASD15A_v2_26_fix9_RGB.zip)
+[enc_2560_SH_AMC_AASD15A_v2_26_fix9-2_RGB.zip](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/Latest_firmware/MEGA2560_chip/enc_2560_SH_AMC_AASD15A_v2_26_fix9-2_RGB.zip)
 
 
 
