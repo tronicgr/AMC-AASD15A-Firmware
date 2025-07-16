@@ -37,6 +37,20 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/tree/master/Thanos-utility/AMC-
 ![Alt Text](https://github.com/tronicgr/AMC-AASD15A-Firmware/blob/master/20201208_201316.gif)
 
 
+-- enc_2560_SH_AMC_AASD15A_v2_26_fix9-3_RGB (2560 chipset only) (7/15/2025)
+--------------------------------------------------
+- Fixed platform naming, had some typos.
+- Added backtrack for the defined vertical actuators, to correctly reposition when using the Simhub power saving option.
+- Fixed calibration of horizontal actuators to be non blocking. Now repositions to 50% in the background.
+- Belt tensioner can also power off with Simhub power saving option, as long is defined as vertical actuator type.
+- FIXED LCD Menu rollover overflow
+- 
+-- ADDED platform presets:
+- 1. RS-COMPETITION eracinglab platform 2xTL/Surge
+- 2. eracinglab platform Belt/TL/SURGE
+- 3. HEXAPOD - ROTARY (50:1, 140degrees)
+- ADDED Parameters export dump, and quick manual F-Stop test sequence.
+- 
 
 -- enc_2560_SH_AMC_AASD15A_v2_26_fix9_RGB (2560 chipset only)
 --------------------------------------------------
@@ -60,6 +74,7 @@ https://github.com/tronicgr/AMC-AASD15A-Firmware/tree/master/Thanos-utility/AMC-
 - Added numerous automation and feedback regarding integration with Simhub, to automate start-stop of the whole platform, and even power off servos on exit or when the motion is idle. A list of the available option will appear on Simhub if supported by the firmware. The new automation allows for very smooth transitions between playing game, or pausing, or handling estop.
 
 - Functionality display on this video:https://www.youtube.com/watch?v=YFQsrKTR2tM
+
 
 
 -- enc_2560_6dof_AMC_AASD15A_v2_26_beta_fix7_RGB.zip (2560 chipset only)
